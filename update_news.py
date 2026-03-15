@@ -28,7 +28,7 @@ for url in rss_urls:
         # 피드에 제목이 없으면 URL 도메인을 출처로 사용
         source_name = feed.feed.title if hasattr(feed, 'feed') and hasattr(feed.feed, 'title') else url.split('/')[2]
         
-        # 각 언론사별 최신 뉴스 10개 가져오기
+        # 💡 수정됨: 각 언론사별 최신 뉴스를 5개에서 10개로 변경!
         for entry in feed.entries[:10]:
             news_data.append({
                 "title": entry.title,
