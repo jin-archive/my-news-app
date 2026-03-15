@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-03-15 11:49:04",
+    "updated_at": "2026-03-15 11:58:40",
     "news": [
         {
             "title": "'손가락 6개' 논란에 사망설…\"살아있다면 살해\" 경고",
@@ -104,6 +104,12 @@
             "source": "이슈 Top10 | JTBC News"
         },
         {
+            "title": "충남소방본부, '국민행복 소방정책 종합평가' 5년 연속 1위",
+            "link": "https://www.yna.co.kr/view/AKR20260315054500063",
+            "published": "Sun, 15 Mar 2026 20:49:33 +0900",
+            "source": "연합뉴스 최신기사"
+        },
+        {
             "title": "\"남편은 직장때문에 귀국 못했는데, 부디 전쟁이 빨리 끝났으면\"",
             "link": "https://www.yna.co.kr/view/AKR20260315053900504",
             "published": "Sun, 15 Mar 2026 20:39:19 +0900",
@@ -158,15 +164,9 @@
             "source": "연합뉴스 최신기사"
         },
         {
-            "title": "우즈, 인천서 새 월드투어…신곡 등 장르 넘나들며 30여곡 열창",
-            "link": "https://www.yna.co.kr/view/AKR20260315040800005",
-            "published": "Sun, 15 Mar 2026 20:00:00 +0900",
-            "source": "연합뉴스 최신기사"
-        },
-        {
-            "title": "김어준 손절론 확산에도 與지도부 “논의 계속”…친명계 반발",
+            "title": "‘손절론’ 확산속 김어준 두고 與지도부-친명 갈등 격화",
             "link": "https://www.donga.com/news/Politics/article/all/20260315/133532992/1",
-            "published": "Sun, 15 Mar 2026 20:45:21 +0900",
+            "published": "Sun, 15 Mar 2026 20:45:00 +0900",
             "source": "동아일보 | 전체 뉴스"
         },
         {
@@ -224,6 +224,36 @@
             "source": "동아일보 | 전체 뉴스"
         },
         {
+            "title": "[만물상] 새우등 터진 두바이",
+            "link": "https://www.chosun.com/opinion/manmulsang/2026/03/15/MISS3AU7CRBHRAYUWZEOE7TNDU/",
+            "published": "Sun, 15 Mar 2026 11:51:03 +0000",
+            "source": "조선일보"
+        },
+        {
+            "title": "윤종훈, 무명 생활 길어도 오디션 합격률은 80%('백반기행')",
+            "link": "https://www.chosun.com/entertainments/broadcast/2026/03/15/GEZWEYJRHEYDSMTBGY4WGMLGGY/",
+            "published": "Sun, 15 Mar 2026 11:49:00 +0000",
+            "source": "조선일보"
+        },
+        {
+            "title": "“다신 없을 찬란한 청춘의 순간들” 제로베이스원, 눈물의 마지막 콘서트",
+            "link": "https://www.chosun.com/culture-life/k-culture/2026/03/15/I7SID2P5WBFAVGDKVYO6HA5ZYY/",
+            "published": "Sun, 15 Mar 2026 11:48:04 +0000",
+            "source": "조선일보"
+        },
+        {
+            "title": "'47kg' 윤승아, 과자 끊었는데 '육아'에 무너져...\"당 충전 필요해서 나도 모르게 산다\" ('승아로운') [순간포착]",
+            "link": "https://www.chosun.com/entertainments/broadcast/2026/03/15/GE3WKNJUMQZDINZXMM3WKMDDGY/",
+            "published": "Sun, 15 Mar 2026 11:48:00 +0000",
+            "source": "조선일보"
+        },
+        {
+            "title": "“가족 걸고 맹세한다!” ‘성기 꼬집기’ 퇴장 압카르의 항변… “배 만지려다 실수, 축구에선 흔한 일” 황당 해명 폭발",
+            "link": "https://www.chosun.com/sports/world-football/2026/03/15/MY2TIZRUGZRDCZTCMY4GCNJQHA/",
+            "published": "Sun, 15 Mar 2026 11:45:00 +0000",
+            "source": "조선일보"
+        },
+        {
             "title": "김윤지 패럴림픽 2관왕...한국 선수 최초 메달 5개",
             "link": "https://www.chosun.com/sports/sports_general/2026/03/15/LKE2V5K6CFG3POECV6HH3HJGJ4/",
             "published": "Sun, 15 Mar 2026 11:39:23 +0000",
@@ -251,36 +281,6 @@
             "title": "하하 눈물샘 고장났다...'런닝맨' 촬영 중 울컥한 이유는? (ft.35년지기)",
             "link": "https://www.chosun.com/entertainments/broadcast/2026/03/15/MM2DAOBSME3TCMRVMVQTMZTGHE/",
             "published": "Sun, 15 Mar 2026 11:37:00 +0000",
-            "source": "조선일보"
-        },
-        {
-            "title": "\"네가 안 쉬면 병현이도 못 쉬어\"…롱런 이유 있다, 사령탑 흐뭇하게 한 '휴식 밀당'",
-            "link": "https://www.chosun.com/sports/baseball/2026/03/15/GY2TIY3EGVQTCMJYMZRDSNRRMQ/",
-            "published": "Sun, 15 Mar 2026 11:34:25 +0000",
-            "source": "조선일보"
-        },
-        {
-            "title": "'와' 퓨처스 신생팀이 브랜드 유니폼 입는다니 \"공식 스토어도 오픈\"",
-            "link": "https://www.chosun.com/sports/baseball/2026/03/15/MNSTONBRME3WEYLBHE4WKNRWMI/",
-            "published": "Sun, 15 Mar 2026 11:34:04 +0000",
-            "source": "조선일보"
-        },
-        {
-            "title": "“반도체 수퍼사이클 2년 더... 中, 10년내 기술 완전독립”",
-            "link": "https://www.chosun.com/opinion/economic_focus/2026/03/15/NETTFAFQDZB6TM54LX36QTFTLE/",
-            "published": "Sun, 15 Mar 2026 09:08:19 +0000",
-            "source": "조선일보"
-        },
-        {
-            "title": "‘사막의 빛’ 작전… 사우디서 軍수송기 탄 한국인 204명 귀국",
-            "link": "https://www.chosun.com/economy/economy_general/2026/03/15/GEZTQNBVHE4GMNZTGRSGEYRSMM/",
-            "published": "Sun, 15 Mar 2026 11:31:37 +0000",
-            "source": "조선일보"
-        },
-        {
-            "title": "김태리→최현욱 \"누구세요? 출입금지입니다\"…수업 중 '자전거 난입' 강남에 정색? ('방과후 태리쌤')",
-            "link": "https://www.chosun.com/entertainments/broadcast/2026/03/15/ME3TAYLGMI2TSYJRMEZGINBUMM/",
-            "published": "Sun, 15 Mar 2026 11:23:00 +0000",
             "source": "조선일보"
         },
         {
@@ -404,67 +404,67 @@
             "source": "매일경제 : 전체뉴스"
         },
         {
-            "title": "미·일 정상회담 앞둔 다카이치, ‘군함 파견 압박’에 고심",
-            "link": "https://www.khan.co.kr/article/202603152045035/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+            "title": "구멍 난  우주정거장을 2년 더?…이유는 중국",
+            "link": "https://www.khan.co.kr/article/202603152057005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
             "published": "",
             "source": "경향신문:전체기사"
         },
         {
-            "title": "직접 협상 나서는 레바논·이스라엘 헤즈볼라 무장해제·군 철수 등 논의",
-            "link": "https://www.khan.co.kr/article/202603152045025/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+            "title": "[찌릿찌릿(知it智it) 전기 교실]전 세계에 드리운 에너지 위기…생산량보다 ‘병목’에 더 주목하라",
+            "link": "https://www.khan.co.kr/article/202603152055005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
             "published": "",
             "source": "경향신문:전체기사"
         },
         {
-            "title": "트럼프 “모즈타바, 살아있다면 조국을 위해 항복하라”",
-            "link": "https://www.khan.co.kr/article/202603152045015/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+            "title": "유출된 기름 ‘꿀꺽꿀꺽’ 깨끗해졌다, 바다가",
+            "link": "https://www.khan.co.kr/article/202603152054005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
             "published": "",
             "source": "경향신문:전체기사"
         },
         {
-            "title": "“이란전 목표 잃은 트럼프, 후퇴와 확전 사이 줄타기 중”",
-            "link": "https://www.khan.co.kr/article/202603152045005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+            "title": "무려 나무로 세운 183m 빌딩, 탄소 배출도 ‘뚝’",
+            "link": "https://www.khan.co.kr/article/202603152053005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
             "published": "",
             "source": "경향신문:전체기사"
         },
         {
-            "title": "마음 놓고 “장이요”…어르신들의 ‘낙원’",
-            "link": "https://www.khan.co.kr/article/202603152042025/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+            "title": "직장인들 출근도 하기 싫게 만든 게임 ‘포켓몬 포코피아’",
+            "link": "https://www.khan.co.kr/article/202603152050015/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
             "published": "",
             "source": "경향신문:전체기사"
         },
         {
-            "title": "탐나는 걸 ‘탐나는전’",
-            "link": "https://www.khan.co.kr/article/202603152042015/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+            "title": "롯데쇼핑, 납품업체 대금 지연 등 갑질…5억원대 과징금",
+            "link": "https://www.khan.co.kr/article/202603152050005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
             "published": "",
             "source": "경향신문:전체기사"
         },
         {
-            "title": "“월세 단돈 만원” 부천시, 청년 주택 지원",
-            "link": "https://www.khan.co.kr/article/202603152042005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+            "title": "칩플레이션에 전쟁 ‘겹악재’ 전자업계 ‘비용 절감’ 안간힘",
+            "link": "https://www.khan.co.kr/article/202603152049015/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
             "published": "",
             "source": "경향신문:전체기사"
         },
         {
-            "title": "국제선 날개 단 청주공항, 이용객 44% 껑충",
-            "link": "https://www.khan.co.kr/article/202603152041005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+            "title": "‘영끌족’ 어쩌나…시중은행 주담대 금리 상단 6.5% 터치",
+            "link": "https://www.khan.co.kr/article/202603152049005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
             "published": "",
             "source": "경향신문:전체기사"
         },
         {
-            "title": "[2026년 03월 16일 날씨]아침은 쌀쌀, 낮에는 포근…일교차 주의",
-            "link": "https://www.khan.co.kr/article/202603152039005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+            "title": "유가 탓 환율·국채 금리 상승…2008년 금융위기 데자뷔?",
+            "link": "https://www.khan.co.kr/article/202603152048005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
             "published": "",
             "source": "경향신문:전체기사"
         },
         {
-            "title": "‘임금체불 법적 대응’ 필리핀 계절노동자들 재입국한다",
-            "link": "https://www.khan.co.kr/article/202603152038025/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+            "title": "한·일 재무장관 “원·엔 가치 동반 급락에 심각한 우려”",
+            "link": "https://www.khan.co.kr/article/202603152047015/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
             "published": "",
             "source": "경향신문:전체기사"
         },
         {
-            "title": "[단독] SK인텔릭스도 하청노조와 교섭키로… ‘진짜 사장’들, 소송 대신 교섭 선택 늘어날까",
+            "title": "[단독] SK인텔릭스도 하청노조와 교섭키로…‘진짜 사장들’ 소송 대신 교섭 택하나",
             "link": "https://www.hani.co.kr/arti/society/labor/1249442.html",
             "published": "",
             "source": "전체기사 : 뉴스 : 한겨레 뉴스 - 인터넷한겨레"
@@ -524,6 +524,18 @@
             "source": "전체기사 : 뉴스 : 한겨레 뉴스 - 인터넷한겨레"
         },
         {
+            "title": "'첫 20㎞서 금빛 질주' 김윤지 \"장거리 체질인가 봐요…두 번째 금 더 실감 나\"[2026 동계패럴림픽]",
+            "link": "https://www.newsis.com/view/NISX20260315_0003548938",
+            "published": "Sun, 15 Mar 2026 20:53:11 +0900",
+            "source": "뉴시스 속보"
+        },
+        {
+            "title": "대낮에 진천 가정집 침입해 '강도행각' 3인조 구속",
+            "link": "https://www.newsis.com/view/NISX20260315_0003548942",
+            "published": "Sun, 15 Mar 2026 20:51:07 +0900",
+            "source": "뉴시스 속보"
+        },
+        {
             "title": "한준호 \"추미애, 경기지사 토론회 한 번으로 충분한가…입장 분명히 밝혀야\"",
             "link": "https://www.newsis.com/view/NISX20260315_0003548939",
             "published": "Sun, 15 Mar 2026 20:44:24 +0900",
@@ -569,18 +581,6 @@
             "title": "배현진 \"오세훈, 가장 경쟁력 있는 후보…강력한 선거 의지 확인\"",
             "link": "https://www.newsis.com/view/NISX20260315_0003548926",
             "published": "Sun, 15 Mar 2026 20:00:04 +0900",
-            "source": "뉴시스 속보"
-        },
-        {
-            "title": "임진영, 이예원 1타차로 제치고 KLPGA 감격의 첫 승…\"피 말렸다\"(종합)",
-            "link": "https://www.newsis.com/view/NISX20260315_0003548919",
-            "published": "Sun, 15 Mar 2026 19:59:38 +0900",
-            "source": "뉴시스 속보"
-        },
-        {
-            "title": "이태훈, 연장 끝 LIV 골프 싱가포르 준우승…첫 우승 무산",
-            "link": "https://www.newsis.com/view/NISX20260315_0003548902",
-            "published": "Sun, 15 Mar 2026 19:40:52 +0900",
             "source": "뉴시스 속보"
         },
         {
