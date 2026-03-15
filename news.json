@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-03-15 17:01:02",
+    "updated_at": "2026-03-15 19:19:14",
     "news": [
         {
             "title": "AI가 하룻밤에 셀프 검증까지…'코딩 시대' 저물까",
@@ -122,7 +122,43 @@
             "source": "이슈 Top10 | JTBC News"
         },
         {
-            "title": "IEA \"아시아 긴급 비축유 1억배럴 즉각 방출 시작\"",
+            "title": "미중, 정상회담 앞 파리서 6시간 고위급 협의…16일 재개(종합)",
+            "link": "https://www.yna.co.kr/view/AKR20260315047452083",
+            "published": "Mon, 16 Mar 2026 04:13:41 +0900",
+            "source": "연합뉴스 최신기사"
+        },
+        {
+            "title": "이란전쟁 '불똥'…트럼프-뉴섬, 캘리포니아 송유관 갈등 고조",
+            "link": "https://www.yna.co.kr/view/AKR20260316002000075",
+            "published": "Mon, 16 Mar 2026 03:22:06 +0900",
+            "source": "연합뉴스 최신기사"
+        },
+        {
+            "title": "트럼프 '호르무즈 군함 파견' 요청받은 韓등 5개국 '신중 모드'",
+            "link": "https://www.yna.co.kr/view/AKR20260316001700071",
+            "published": "Mon, 16 Mar 2026 03:09:39 +0900",
+            "source": "연합뉴스 최신기사"
+        },
+        {
+            "title": "나토주요국서 \"트럼프의 美보다 中 의지\" 여론 우세<美언론조사>",
+            "link": "https://www.yna.co.kr/view/AKR20260316001600071",
+            "published": "Mon, 16 Mar 2026 03:08:19 +0900",
+            "source": "연합뉴스 최신기사"
+        },
+        {
+            "title": "美유엔대사 \"트럼프, 하르그섬 석유시설 공격도 배제 안할 것\"",
+            "link": "https://www.yna.co.kr/view/AKR20260316001500072",
+            "published": "Mon, 16 Mar 2026 02:45:00 +0900",
+            "source": "연합뉴스 최신기사"
+        },
+        {
+            "title": "이란, 이스라엘·걸프국 겨냥 미사일·드론 공격 지속",
+            "link": "https://www.yna.co.kr/view/AKR20260316001100099",
+            "published": "Mon, 16 Mar 2026 01:56:25 +0900",
+            "source": "연합뉴스 최신기사"
+        },
+        {
+            "title": "IEA \"아시아 전략 비축유 1억배럴 즉각 방출 시작\"",
             "link": "https://www.yna.co.kr/view/AKR20260316000900085",
             "published": "Mon, 16 Mar 2026 01:28:55 +0900",
             "source": "연합뉴스 최신기사"
@@ -143,42 +179,6 @@
             "title": "\"사망 하메네이, 차남 모즈타바 지도자감 아니라고 생각했었다\"",
             "link": "https://www.yna.co.kr/view/AKR20260316000500071",
             "published": "Mon, 16 Mar 2026 00:52:35 +0900",
-            "source": "연합뉴스 최신기사"
-        },
-        {
-            "title": "국제유가, 하르그섬 공격에 불안한 한주 직면…급등 출발 우려",
-            "link": "https://www.yna.co.kr/view/AKR20260316000200072",
-            "published": "Mon, 16 Mar 2026 00:07:24 +0900",
-            "source": "연합뉴스 최신기사"
-        },
-        {
-            "title": "스웨덴, 러시아 유조선 나포하고 선장 구금",
-            "link": "https://www.yna.co.kr/view/AKR20260315059300082",
-            "published": "Mon, 16 Mar 2026 00:02:23 +0900",
-            "source": "연합뉴스 최신기사"
-        },
-        {
-            "title": "[알림] 연합뉴스 콘텐츠 저작권 고지",
-            "link": "https://www.yna.co.kr/view/AKR20260316000100011",
-            "published": "Mon, 16 Mar 2026 00:00:01 +0900",
-            "source": "연합뉴스 최신기사"
-        },
-        {
-            "title": "[동포의 창] 3월 '이달의 재외동포'에 '한국의 오펜하이머' 물리학자 이휘소",
-            "link": "https://www.yna.co.kr/view/AKR20260313149600371",
-            "published": "Mon, 16 Mar 2026 00:00:00 +0900",
-            "source": "연합뉴스 최신기사"
-        },
-        {
-            "title": "美에너지장관 \"韓등 호르무즈 통과 에너지 의존…협력이 논리적\"(종합)",
-            "link": "https://www.yna.co.kr/view/AKR20260315058651071",
-            "published": "Sun, 15 Mar 2026 23:55:08 +0900",
-            "source": "연합뉴스 최신기사"
-        },
-        {
-            "title": "아르헨 밀레이 부패 의혹 '리브라 코인' 스캔들 다시 수면위로",
-            "link": "https://www.yna.co.kr/view/AKR20260315058900009",
-            "published": "Sun, 15 Mar 2026 23:47:14 +0900",
             "source": "연합뉴스 최신기사"
         },
         {
@@ -242,63 +242,63 @@
             "source": "동아일보 | 전체 뉴스"
         },
         {
-            "title": "한화에어로, 美 LNG 기업과 20년 장기 계약",
-            "link": "https://www.chosun.com/economy/industry-company/2026/03/16/HBSTMODDHAYWKMRXGFQTMYZWGA/",
-            "published": "Sun, 15 Mar 2026 16:48:51 +0000",
+            "title": "한국 여자농구, 17회 연속 FIBA 월드컵 무대 밟는다",
+            "link": "https://www.chosun.com/sports/basketball/2026/03/15/6WZM5TOL3NGIPH55C62755HDBU/",
+            "published": "Sun, 15 Mar 2026 13:27:57 +0000",
             "source": "조선일보"
         },
         {
-            "title": "유승안 이후 최초, 한화도 '거포 포수' 품나… 연타석 홈런→시범경기 홈런왕, 심지어 예비역",
-            "link": "https://www.chosun.com/sports/baseball/2026/03/16/GEYDQZJQGQZTKM3GGI3WKZJTG4/",
-            "published": "Sun, 15 Mar 2026 16:45:41 +0000",
+            "title": "\"충격!\" 韓 안중에도 없나…日, 준결승 한일전→10회 연속 월드컵 진출에도 \"출전권보다 이번 대회 우승 목표!\"",
+            "link": "https://www.chosun.com/sports/football/2026/03/16/MJRWMNBUMM3GKN3DGM3WKMBTG4/",
+            "published": "Sun, 15 Mar 2026 18:57:01 +0000",
             "source": "조선일보"
         },
         {
-            "title": "IEA “아시아 긴급 비축유 1억배럴 즉각 방출 시작”",
-            "link": "https://www.chosun.com/international/international_general/2026/03/16/GQ4TEYZXMVSDQMLDGYYDANZUGY/",
-            "published": "Sun, 15 Mar 2026 16:42:36 +0000",
+            "title": "'韓 축구 초대박, 유럽파 미쳤다' 이재성 리그 4호골 폭발, 마인츠 2-0 승리 견인..오현규 조규성 황희찬 양현준 줄줄이 터졌다",
+            "link": "https://www.chosun.com/sports/world-football/2026/03/16/MU3TGZDDMQZDQZTEGYYDKMZRGM/",
+            "published": "Sun, 15 Mar 2026 18:24:00 +0000",
             "source": "조선일보"
         },
         {
-            "title": "‘이런 황당 주장이’ 일본 8강 대참사가 시차 때문? 日매체 “미국→일본→미국 이동, 메이저리거들 실력 발휘 못해”",
-            "link": "https://www.chosun.com/sports/world-baseball/2026/03/16/GRQTINBYGVQWKMBRGRSDIYZXGI/",
-            "published": "Sun, 15 Mar 2026 16:42:00 +0000",
+            "title": "[오늘의 경기] 2026년 3월 16일",
+            "link": "https://www.chosun.com/sports/sports_general/2026/03/16/QHVE4F77ZBGKPAWLN6QGEPGVTY/",
+            "published": "Sun, 15 Mar 2026 16:00:28 +0000",
             "source": "조선일보"
         },
         {
-            "title": "‘손흥민이 2선 공격수?’ 이해하기 어려운 감독의 결정…손흥민 6경기 연속 골 침묵",
-            "link": "https://www.chosun.com/sports/world-football/2026/03/16/GIYGEYZWGBSGKZBZMQYTGNBUMY/",
-            "published": "Sun, 15 Mar 2026 16:40:00 +0000",
+            "title": "1.2㎞ 두고… 포항 남구는 회식, 북구는 운동",
+            "link": "https://www.chosun.com/national/national_general/2026/03/16/2GWVT3CO4NBUZDZWYG6BXHPLNI/",
+            "published": "Sun, 15 Mar 2026 15:54:00 +0000",
             "source": "조선일보"
         },
         {
-            "title": "美, 해병 2500명·강습상륙함 중동 파견",
-            "link": "https://www.chosun.com/international/international_general/2026/03/16/GRQWINRSHE2GMMRSGQZDSMJXGI/",
-            "published": "Sun, 15 Mar 2026 16:32:45 +0000",
+            "title": "내달 항공 유류할증료, 10만원 이상 오를 수도",
+            "link": "https://www.chosun.com/economy/industry-company/2026/03/16/OX4NC2HMVNG6LNOR7DAA5L5H7E/",
+            "published": "Sun, 15 Mar 2026 15:31:00 +0000",
             "source": "조선일보"
         },
         {
-            "title": "\"패럴림픽 3회 연속 완주의 기록\" '평창 금' 위대한 철인 신의현, 마지막 은퇴경기도 멋있었다[밀라노-코르티나 패럴림픽]",
-            "link": "https://www.chosun.com/sports/sports_general/2026/03/16/MUYGMYJTMFRDSZBTGM2WMY3DGE/",
-            "published": "Sun, 15 Mar 2026 16:32:29 +0000",
+            "title": "'F1 이어 피날리시마도 무산' 美-이란 전쟁에 스포츠이벤트도 '줄취소'",
+            "link": "https://www.chosun.com/sports/world-football/2026/03/16/GQ4WIYZQMMZTMNBUGMYWGYJQMU/",
+            "published": "Sun, 15 Mar 2026 18:11:08 +0000",
             "source": "조선일보"
         },
         {
-            "title": "'에이스' 이동경의 냉정한 현실인식 \"울산, 아직 우승후보 아냐\"[현장 인터뷰]",
-            "link": "https://www.chosun.com/sports/football/2026/03/16/MVTDAZJRMQZTOOJYMJRTEMZYGI/",
-            "published": "Sun, 15 Mar 2026 16:30:51 +0000",
+            "title": "\"7495억 벌 투수\" WBC 1경기 던지고 美 떠난 에이스, 복귀전서 4.2이닝 7K",
+            "link": "https://www.chosun.com/sports/world-baseball/2026/03/16/GEYWEYRUGUZWIZTCMY4DEOJQMY/",
+            "published": "Sun, 15 Mar 2026 18:04:11 +0000",
             "source": "조선일보"
         },
         {
-            "title": "\"저는 무보수 감독입니다\" 이게 진짜 애국심인가, 일본까지 침몰시켰다",
-            "link": "https://www.chosun.com/sports/world-baseball/2026/03/16/GZQWKZBWMVSDKNLCG4YWMNZVGA/",
-            "published": "Sun, 15 Mar 2026 16:30:08 +0000",
+            "title": "한국서 군함 보내면 3~4주 걸리고 청해부대는 기뢰제거 헬기도 없어",
+            "link": "https://www.chosun.com/politics/diplomacy-defense/2026/03/16/Z5XQSB6Z3NGI7EOPNZQSCJ2LPQ/",
+            "published": "Sun, 15 Mar 2026 15:51:00 +0000",
             "source": "조선일보"
         },
         {
-            "title": "“잃어버릴까봐 손 잡자” 이상순도 놀란 로맨티스트 등장...제작진 돌연 개입한 사연은? ('몽글상담소')",
-            "link": "https://www.chosun.com/entertainments/broadcast/2026/03/16/GY2WMNBTGQ4DGY3EMIZGIYJRMI/",
-            "published": "Sun, 15 Mar 2026 16:29:00 +0000",
+            "title": "눈 뜨니 송나라… 서호에 배 띄워 조식, 백차 마시며 ‘신선 놀음’",
+            "link": "https://www.chosun.com/culture-life/travel/2026/03/16/RD7FNU3UAJBL5BDSPJMK7LEZDQ/",
+            "published": "Sun, 15 Mar 2026 18:00:00 +0000",
             "source": "조선일보"
         },
         {
@@ -542,6 +542,36 @@
             "source": "전체기사 : 뉴스 : 한겨레 뉴스 - 인터넷한겨레"
         },
         {
+            "title": "대구·경북, 15도 안팎 일교차…아침 –2도·한낮 17도",
+            "link": "https://www.newsis.com/view/NISX20260315_0003548971",
+            "published": "Mon, 16 Mar 2026 04:02:00 +0900",
+            "source": "뉴시스 속보"
+        },
+        {
+            "title": "\"미국, 대이란 군사작전에 지금까지 18조원 투입\"",
+            "link": "https://www.newsis.com/view/NISX20260316_0003549008",
+            "published": "Mon, 16 Mar 2026 03:59:36 +0900",
+            "source": "뉴시스 속보"
+        },
+        {
+            "title": "UAE, 중동전쟁으로 발묶인 외국인 거주자·비자 소지자 귀환 지원",
+            "link": "https://www.newsis.com/view/NISX20260316_0003549005",
+            "published": "Mon, 16 Mar 2026 03:26:10 +0900",
+            "source": "뉴시스 속보"
+        },
+        {
+            "title": "IEA \"아시아에 비축유 1억배럴 16일 방출\"…유럽·미주는 3월 말",
+            "link": "https://www.newsis.com/view/NISX20260316_0003549004",
+            "published": "Mon, 16 Mar 2026 02:59:37 +0900",
+            "source": "뉴시스 속보"
+        },
+        {
+            "title": "이란 외무장관 “휴전·협상 요청 안해…장기전 각오”",
+            "link": "https://www.newsis.com/view/NISX20260316_0003549002",
+            "published": "Mon, 16 Mar 2026 02:11:39 +0900",
+            "source": "뉴시스 속보"
+        },
+        {
             "title": "[속보] 이란 외무 “휴전·협상 요청 안해…장기 항전 각오”",
             "link": "https://www.newsis.com/view/NISX20260316_0003549000",
             "published": "Mon, 16 Mar 2026 01:06:44 +0900",
@@ -569,36 +599,6 @@
             "title": "이스라엘 가자지구 공습…어린이·임신부 등 최소 12명 숨져",
             "link": "https://www.newsis.com/view/NISX20260316_0003548996",
             "published": "Mon, 16 Mar 2026 00:23:19 +0900",
-            "source": "뉴시스 속보"
-        },
-        {
-            "title": "\"오기 직전까지 드론 공격…남편은 아직 일해야 해서 남아 걱정\"",
-            "link": "https://www.newsis.com/view/NISX20260315_0003548991",
-            "published": "Mon, 16 Mar 2026 00:08:29 +0900",
-            "source": "뉴시스 속보"
-        },
-        {
-            "title": "[인사] 한국재료연구원",
-            "link": "https://www.newsis.com/view/NISX20260315_0003548833",
-            "published": "Mon, 16 Mar 2026 00:01:00 +0900",
-            "source": "뉴시스 속보"
-        },
-        {
-            "title": "[알림]뉴시스 콘텐츠 저작권 고지",
-            "link": "https://www.newsis.com/view/NISX20260316_0003548992",
-            "published": "Mon, 16 Mar 2026 00:00:00 +0900",
-            "source": "뉴시스 속보"
-        },
-        {
-            "title": "'신혼' 김종국, 건강 적신호 \"생전 들어보지도 못한 병에 걸려\"",
-            "link": "https://www.newsis.com/view/NISX20260315_0003548958",
-            "published": "Mon, 16 Mar 2026 00:00:00 +0900",
-            "source": "뉴시스 속보"
-        },
-        {
-            "title": "이소라 \"체중 100㎏까지 늘어…1년에 한 번 나갈까 말까\"",
-            "link": "https://www.newsis.com/view/NISX20260315_0003548966",
-            "published": "Mon, 16 Mar 2026 00:00:00 +0900",
             "source": "뉴시스 속보"
         },
         {
