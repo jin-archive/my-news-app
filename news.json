@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-03-15 13:59:59",
+    "updated_at": "2026-03-15 15:00:57",
     "news": [
         {
             "title": "AI가 하룻밤에 셀프 검증까지…'코딩 시대' 저물까",
@@ -122,6 +122,30 @@
             "source": "이슈 Top10 | JTBC News"
         },
         {
+            "title": "아르헨 밀레이 부패 의혹 '리브라 코인' 스캔들 다시 수면위로",
+            "link": "https://www.yna.co.kr/view/AKR20260315058900009",
+            "published": "Sun, 15 Mar 2026 23:47:14 +0900",
+            "source": "연합뉴스 최신기사"
+        },
+        {
+            "title": "李대통령 \"당정 협력해야, 검사 다 나쁘진 않아\"…檢개혁 이견 우려(종합)",
+            "link": "https://www.yna.co.kr/view/AKR20260315056951001",
+            "published": "Sun, 15 Mar 2026 23:43:49 +0900",
+            "source": "연합뉴스 최신기사"
+        },
+        {
+            "title": "[패럴림픽] 은퇴 무대서 58㎞ 역주한 '영웅' 신의현 \"모든 것 쏟아부었다\"",
+            "link": "https://www.yna.co.kr/view/AKR20260315058700007",
+            "published": "Sun, 15 Mar 2026 23:28:41 +0900",
+            "source": "연합뉴스 최신기사"
+        },
+        {
+            "title": "北, 최고인민회의 대의원 선거 실시…외교 대표단 참관도(종합2보)",
+            "link": "https://www.yna.co.kr/view/AKR20260315009052504",
+            "published": "Sun, 15 Mar 2026 23:04:24 +0900",
+            "source": "연합뉴스 최신기사"
+        },
+        {
             "title": "美에너지장관 \"韓등 호르무즈 통과 에너지 의존…협력이 논리적\"",
             "link": "https://www.yna.co.kr/view/AKR20260315058600071",
             "published": "Sun, 15 Mar 2026 22:53:34 +0900",
@@ -158,147 +182,123 @@
             "source": "연합뉴스 최신기사"
         },
         {
-            "title": "화재 '벌집구조' 소공동 캡슐호텔, 스프링클러 없는 취약지대(종합)",
-            "link": "https://www.yna.co.kr/view/AKR20260315010351004",
-            "published": "Sun, 15 Mar 2026 22:22:52 +0900",
-            "source": "연합뉴스 최신기사"
-        },
-        {
-            "title": "여자농구, 17회 연속 월드컵 본선 진출…필리핀 31점 차 완파",
-            "link": "https://www.yna.co.kr/view/AKR20260315057700007",
-            "published": "Sun, 15 Mar 2026 22:17:44 +0900",
-            "source": "연합뉴스 최신기사"
-        },
-        {
-            "title": "李대통령, 與초선 만찬서 \"안정적 당정 협력으로 개혁과제 해결\"",
-            "link": "https://www.yna.co.kr/view/AKR20260315056900001",
-            "published": "Sun, 15 Mar 2026 21:52:57 +0900",
-            "source": "연합뉴스 최신기사"
-        },
-        {
-            "title": "[속보] 李대통령 \"초심으로 진정한 의미 개혁 완수해 더 나은 세상 만들자\"",
-            "link": "https://www.yna.co.kr/view/AKR20260315056800001",
-            "published": "Sun, 15 Mar 2026 21:44:24 +0900",
-            "source": "연합뉴스 최신기사"
-        },
-        {
-            "title": "李, 與초선 만찬서 “검사들이 다 나쁜 건 아니지 않냐”",
-            "link": "https://www.donga.com/news/Politics/article/all/20260315/133532668/1",
-            "published": "Sun, 15 Mar 2026 22:43:00 +0900",
+            "title": "[사설]美 호르무즈 파병 요구… ‘국익과 공조’ 원칙으로 잘 衡量해야",
+            "link": "https://www.donga.com/news/Opinion/article/all/20260315/133535252/2",
+            "published": "Sun, 15 Mar 2026 23:30:00 +0900",
             "source": "동아일보 | 전체 뉴스"
         },
         {
-            "title": "日 삿포로서 ‘벌레 먹기 게임’ 강요…부하 직원에 가혹행위",
-            "link": "https://www.donga.com/news/Inter/article/all/20260315/133535305/1",
-            "published": "Sun, 15 Mar 2026 21:47:07 +0900",
+            "title": "[사설]49년 만에 전기료 개편… 원전 재가동-송전망 확충도 서둘 때",
+            "link": "https://www.donga.com/news/Opinion/article/all/20260315/133535256/2",
+            "published": "Sun, 15 Mar 2026 23:27:00 +0900",
             "source": "동아일보 | 전체 뉴스"
         },
         {
-            "title": "뽑기 기계에 햄스터가…“먹이도 제때 안줘, 스트레스 받는 듯”",
-            "link": "https://www.donga.com/news/Inter/article/all/20260315/133534978/2",
-            "published": "Sun, 15 Mar 2026 21:07:00 +0900",
+            "title": "[사설]닷새 후 BTS 광화문 공연… 韓 안전관리역량 세계에 보여줘야",
+            "link": "https://www.donga.com/news/Opinion/article/all/20260315/133535254/2",
+            "published": "Sun, 15 Mar 2026 23:24:00 +0900",
             "source": "동아일보 | 전체 뉴스"
         },
         {
-            "title": "美, 이란 ‘경제 생명줄’ 폭격에…이란, ‘호르무즈 우회로’ 때렸다",
-            "link": "https://www.donga.com/news/Inter/article/all/20260315/133532766/1",
-            "published": "Sun, 15 Mar 2026 20:59:00 +0900",
+            "title": "[김승련 칼럼]호르무즈 파병은 ‘무서운 고양이’ 목에 방울 달기",
+            "link": "https://www.donga.com/news/Opinion/article/all/20260315/133535241/2",
+            "published": "Sun, 15 Mar 2026 23:21:00 +0900",
             "source": "동아일보 | 전체 뉴스"
         },
         {
-            "title": "‘김어준 조치’ 미적대는 與지도부…친명 “정청래 친분 탓” 반발",
-            "link": "https://www.donga.com/news/Politics/article/all/20260315/133532992/1",
-            "published": "Sun, 15 Mar 2026 20:45:00 +0900",
+            "title": "트럼프 방중 코앞에 뚫린 北-中 여객 열차길[횡설수설/윤완준]",
+            "link": "https://www.donga.com/news/Opinion/article/all/20260315/133535239/2",
+            "published": "Sun, 15 Mar 2026 23:18:00 +0900",
             "source": "동아일보 | 전체 뉴스"
         },
         {
-            "title": "돈-목숨 걸고 호르무즈 호위해도…원유 10%만 통과 가능할듯",
-            "link": "https://www.donga.com/news/Inter/article/all/20260315/133532645/1",
-            "published": "Sun, 15 Mar 2026 20:29:00 +0900",
+            "title": "[특파원 칼럼/황인찬]日 ‘소비세 제로’ 정책, 韓 관광업엔 ‘빨간불’",
+            "link": "https://www.donga.com/news/Opinion/article/all/20260315/133535260/2",
+            "published": "Sun, 15 Mar 2026 23:15:00 +0900",
             "source": "동아일보 | 전체 뉴스"
         },
         {
-            "title": "유통단계 좁힌 국외별미, 트레이더스 직수입 특별전 첫선",
-            "link": "https://www.donga.com/news/Economy/article/all/20260315/133534672/1",
-            "published": "Sun, 15 Mar 2026 19:54:26 +0900",
+            "title": "[광화문에서/조건희]코딩 몰라도 2억 암표상… AI가 낮춘 범죄의 문턱",
+            "link": "https://www.donga.com/news/Opinion/article/all/20260315/133535243/2",
+            "published": "Sun, 15 Mar 2026 23:12:00 +0900",
             "source": "동아일보 | 전체 뉴스"
         },
         {
-            "title": "네타냐후 손가락이 6개? ‘사망설’ 불지핀 영상에…이스라엘 “거짓”",
-            "link": "https://www.donga.com/news/Inter/article/all/20260315/133534629/2",
-            "published": "Sun, 15 Mar 2026 19:48:00 +0900",
+            "title": "[고양이 눈]나의 취향",
+            "link": "https://www.donga.com/news/Opinion/article/all/20260315/133535236/2",
+            "published": "Sun, 15 Mar 2026 23:09:00 +0900",
             "source": "동아일보 | 전체 뉴스"
         },
         {
-            "title": "도심 캡슐호텔 화재로 일본인 의식불명…벌집 구조-대피로 확보 어려워",
-            "link": "https://www.donga.com/news/Society/article/all/20260315/133533933/1",
-            "published": "Sun, 15 Mar 2026 19:46:00 +0900",
+            "title": "이어지고 포개진 시간[내가 만난 명문장/최승연]",
+            "link": "https://www.donga.com/news/Opinion/article/all/20260315/133535248/2",
+            "published": "Sun, 15 Mar 2026 23:09:00 +0900",
             "source": "동아일보 | 전체 뉴스"
         },
         {
-            "title": "李 “총칼 맞섰던 마산 시민처럼 맨몸으로 계엄군 저지”",
-            "link": "https://www.donga.com/news/Politics/article/all/20260315/133532987/1",
-            "published": "Sun, 15 Mar 2026 19:29:00 +0900",
+            "title": "나도 맞고 자랐는데, 아이를 때린 적이 있다면…[오은영의 부모마음 아이마음]",
+            "link": "https://www.donga.com/news/Opinion/article/all/20260315/133535123/2",
+            "published": "Sun, 15 Mar 2026 23:09:00 +0900",
             "source": "동아일보 | 전체 뉴스"
         },
         {
-            "title": "“야호~” 태국서 임진영이 외친 한 마디… KLPGA 개막전 우승",
-            "link": "https://www.chosun.com/national/people/2026/03/15/C6U4I3AZMBH3VAIK6OC33EVADA/",
-            "published": "Sun, 15 Mar 2026 09:09:08 +0000",
+            "title": "‘학폭 논란’ 前 아이돌 멤버, 유튜브 개설 이틀 만에 15만 돌파",
+            "link": "https://www.chosun.com/national/people/2026/03/15/RNC66C56UBG3NFBXC5O2AIYYCM/",
+            "published": "Sun, 15 Mar 2026 14:55:08 +0000",
             "source": "조선일보"
         },
         {
-            "title": "서울, 세계 최고 도시 9위...“사계절 즐길 거리·카페·디저트 매력적\"",
-            "link": "https://www.chosun.com/international/international_general/2026/03/15/6MJ2KGZNSJDPLOTRK4F5ZWLCNM/",
-            "published": "Sun, 15 Mar 2026 13:51:49 +0000",
+            "title": "[朝鮮칼럼] 미·중 패권 경쟁의 최전선, 서해를 지켜라",
+            "link": "https://www.chosun.com/opinion/chosun_column/2026/03/15/JRQZWTIMNNBAJKD76DBQKIPH5I/",
+            "published": "Sun, 15 Mar 2026 14:55:00 +0000",
             "source": "조선일보"
         },
         {
-            "title": "'41세' 이제훈, 연예인과 연애 금지 원칙? 다 쓸데없는 짓...\"왜 시간을 허비했을까\" ('미우새')",
-            "link": "https://www.chosun.com/entertainments/broadcast/2026/03/15/GFRDINTGMEZDMOBSMEZTCYRZMI/",
-            "published": "Sun, 15 Mar 2026 13:51:00 +0000",
+            "title": "월요일 출근길 기온 뚝, 일교차 커",
+            "link": "https://www.chosun.com/national/transport-environment/2026/03/15/IMT4BT2ZRBFMRALQQZ73KPA2KQ/",
+            "published": "Sun, 15 Mar 2026 04:15:14 +0000",
             "source": "조선일보"
         },
         {
-            "title": "한국 여자농구, 17회 연속 FIBA 월드컵 무대 밟는다",
-            "link": "https://www.chosun.com/sports/basketball/2026/03/15/6WZM5TOL3NGIPH55C62755HDBU/",
-            "published": "Sun, 15 Mar 2026 13:27:57 +0000",
+            "title": "이효리 \"이상순 첫 만남 때? 서로 별로였다\" 솔직 ('몽글상담소')",
+            "link": "https://www.chosun.com/entertainments/broadcast/2026/03/15/GEZTKODFMEZDOYZVGI2DQZTDGM/",
+            "published": "Sun, 15 Mar 2026 14:44:00 +0000",
             "source": "조선일보"
         },
         {
-            "title": "'이병헌♥' 이민정, 딸 서이 출산 생각하며 눈물 \"산후조리원에서 눈 본 기억\"('1등들')[순간포착]",
-            "link": "https://www.chosun.com/entertainments/broadcast/2026/03/15/G4YWKNDDGE2DSMDGGIZWGMZXMI/",
-            "published": "Sun, 15 Mar 2026 13:48:00 +0000",
+            "title": "'더 벌어진 격차…' 韓 대학 축구 이번에도 일본에 패했다, 男 5연패 수렁→女 0-9 완패",
+            "link": "https://www.chosun.com/sports/football/2026/03/15/GRTDCZTDMFRGIYZVMZSGKZBSGQ/",
+            "published": "Sun, 15 Mar 2026 14:40:01 +0000",
             "source": "조선일보"
         },
         {
-            "title": "박유천 비주얼 확 달라졌다?..은퇴번복 후 일본 근황 봤더니 [핫피플]",
-            "link": "https://www.chosun.com/entertainments/broadcast/2026/03/15/GE4TIOBQMEZDOYRSGRSTQNDDME/",
-            "published": "Sun, 15 Mar 2026 13:47:00 +0000",
+            "title": "[강헌의 히스토리 인 팝스] [304] 또 하나의 올림픽",
+            "link": "https://www.chosun.com/opinion/specialist_column/2026/03/15/ABSA4TGJ5NBQXJQURWADU2OLHI/",
+            "published": "Sun, 15 Mar 2026 14:40:00 +0000",
             "source": "조선일보"
         },
         {
-            "title": "‘만화 실사화=흥행 부진’ 공식 깼다... 흥행 물살 탄 ‘원피스2′",
-            "link": "https://www.chosun.com/culture-life/k-culture/2026/03/15/2O4QRH4LZJATXBIOHZZBVGK5LA/",
-            "published": "Sun, 15 Mar 2026 08:22:01 +0000",
+            "title": "[태평로] 靑 비서관 임명을 국회의장이 반대한 이유",
+            "link": "https://www.chosun.com/opinion/taepyeongro/2026/03/15/ATWWY6UH6VEYNCIIWFQZNQUAP4/",
+            "published": "Sun, 15 Mar 2026 14:39:00 +0000",
             "source": "조선일보"
         },
         {
-            "title": "김기태, 母 사망도 몰랐다 \"등본 떼며 알아···묻힌 곳도 모른다\"('1등들')",
-            "link": "https://www.chosun.com/entertainments/broadcast/2026/03/15/HE3TQNZWGIYDCMRVGRTDCYRSG4/",
-            "published": "Sun, 15 Mar 2026 13:45:00 +0000",
+            "title": "[문태준의 가슴이 따뜻해지는 詩] [112] 할미꽃은",
+            "link": "https://www.chosun.com/opinion/specialist_column/2026/03/15/PI2RT6XXC5F4BIUEQ74ZEHIGVE/",
+            "published": "Sun, 15 Mar 2026 14:38:00 +0000",
             "source": "조선일보"
         },
         {
-            "title": "오타니 향해 벤치까지 노려봤다…WBC서 벌어진 ‘의문의 장면’",
-            "link": "https://www.chosun.com/sports/world-baseball/2026/03/15/GAZWCNJTMM3TOZLDG42WGZBSME/",
-            "published": "Sun, 15 Mar 2026 13:38:00 +0000",
+            "title": "[특파원 리포트] 北 자폭드론이 날아든다면",
+            "link": "https://www.chosun.com/opinion/correspondent_column/2026/03/15/VZFPSWYZPFCATHTQQ35LLFOJFE/",
+            "published": "Sun, 15 Mar 2026 14:37:00 +0000",
             "source": "조선일보"
         },
         {
-            "title": "'현빈♥' 손예진, 반전 등근육만? 이번엔 11자 복근까지 빈틈 없네 [핫피플]",
-            "link": "https://www.chosun.com/entertainments/broadcast/2026/03/15/GYYGGOLCMNSDGMLBGJTDQMBSGU/",
-            "published": "Sun, 15 Mar 2026 13:33:00 +0000",
+            "title": "[리빙포인트] 철분과 칼슘은 따로 드세요",
+            "link": "https://www.chosun.com/culture-life/living/2026/03/15/ODQMLYEYLRED3I4MVR56VQHZPU/",
+            "published": "Sun, 15 Mar 2026 14:36:00 +0000",
             "source": "조선일보"
         },
         {
@@ -362,6 +362,12 @@
             "source": "한국경제 | 전체뉴스"
         },
         {
+            "title": "“어머니를 기억하며”…윌리엄 왕세자, 미공개 다이애나빈 사진 공개",
+            "link": "https://www.mk.co.kr/news/world/11988670",
+            "published": "Sun, 15 Mar 2026 23:06:54 +09:00",
+            "source": "매일경제 : 전체뉴스"
+        },
+        {
             "title": "“선생님 PC가 갑자기 느려졌어요”…알고보니 메모리 카드 바꿔치기, 누군지 보니",
             "link": "https://www.mk.co.kr/news/society/11988667",
             "published": "Sun, 15 Mar 2026 22:32:54 +09:00",
@@ -413,12 +419,6 @@
             "title": "“배후수요가 삼전닉스인데 따질게 있나?”…용인 몰리는 디벨로퍼들",
             "link": "https://www.mk.co.kr/news/realestate/11988634",
             "published": "Sun, 15 Mar 2026 19:46:44 +09:00",
-            "source": "매일경제 : 전체뉴스"
-        },
-        {
-            "title": "‘손가락 6개’ 영상에 사망설 확산…이란 “네타냐후 살아있다면 살해하겠다”",
-            "link": "https://www.mk.co.kr/news/world/11988628",
-            "published": "Sun, 15 Mar 2026 19:16:40 +09:00",
             "source": "매일경제 : 전체뉴스"
         },
         {
@@ -482,6 +482,12 @@
             "source": "경향신문:전체기사"
         },
         {
+            "title": "스마트워치 신고에도 비극…‘스토킹 자동경보’ 조치 경찰 신청 안 해",
+            "link": "https://www.hani.co.kr/arti/area/capital/1249448.html",
+            "published": "",
+            "source": "전체기사 : 뉴스 : 한겨레 뉴스 - 인터넷한겨레"
+        },
+        {
             "title": "이 대통령 “헌법에 있는 ‘검찰총장’ 어떻게 바꾸나” 작심 발언",
             "link": "https://www.hani.co.kr/arti/politics/politics_general/1249447.html",
             "published": "",
@@ -536,69 +542,63 @@
             "source": "전체기사 : 뉴스 : 한겨레 뉴스 - 인터넷한겨레"
         },
         {
-            "title": "‘법왜곡죄 1호’ 조희대 처벌 가능성은…법조계 “내심 의사 입증 어려워”",
-            "link": "https://www.hani.co.kr/arti/society/society_general/1249438.html",
-            "published": "",
-            "source": "전체기사 : 뉴스 : 한겨레 뉴스 - 인터넷한겨레"
-        },
-        {
-            "title": "[올댓차이나] 홍콩 증시, 차등의결권 기업 상장 문턱 낮춰…IPO 규정 대폭 완화",
-            "link": "https://www.newsis.com/view/NISX20260315_0003548940",
-            "published": "Sun, 15 Mar 2026 22:57:55 +0900",
+            "title": "'신혼' 김종국, 건강 적신호 \"생전 들어보지도 못한 병에 걸려\"",
+            "link": "https://www.newsis.com/view/NISX20260315_0003548958",
+            "published": "Mon, 16 Mar 2026 00:00:00 +0900",
             "source": "뉴시스 속보"
         },
         {
-            "title": "'17연속 월드컵 본선' 女농구 대표팀 \"너무 좋고 자랑스럽다\"",
-            "link": "https://www.newsis.com/view/NISX20260315_0003548972",
-            "published": "Sun, 15 Mar 2026 22:40:43 +0900",
+            "title": "이소라 \"체중 100㎏까지 늘어…1년에 한 번 나갈까 말까\"",
+            "link": "https://www.newsis.com/view/NISX20260315_0003548966",
+            "published": "Mon, 16 Mar 2026 00:00:00 +0900",
             "source": "뉴시스 속보"
         },
         {
-            "title": "트럼프 “이란 전쟁 종식 협상 원해”…이란 “구체 제안 없어”",
-            "link": "https://www.newsis.com/view/NISX20260315_0003548973",
-            "published": "Sun, 15 Mar 2026 22:38:32 +0900",
+            "title": "'이혼 1년' 홍진경 \"썸 타는 남자 있다\" 깜짝 고백",
+            "link": "https://www.newsis.com/view/NISX20260315_0003548946",
+            "published": "Mon, 16 Mar 2026 00:00:00 +0900",
             "source": "뉴시스 속보"
         },
         {
-            "title": "여자 농구, 17회 연속 월드컵 본선행…필리핀 꺾고 3연승",
-            "link": "https://www.newsis.com/view/NISX20260315_0003548936",
-            "published": "Sun, 15 Mar 2026 22:29:55 +0900",
+            "title": "'아침 영하권' 일교차 큰 월요일…미세먼지 '나쁨'[오늘날씨]",
+            "link": "https://www.newsis.com/view/NISX20260315_0003548952",
+            "published": "Mon, 16 Mar 2026 00:00:00 +0900",
             "source": "뉴시스 속보"
         },
         {
-            "title": "이스라엘, 이란과 레바논 때리면서 가자도 계속 공습",
-            "link": "https://www.newsis.com/view/NISX20260315_0003548960",
-            "published": "Sun, 15 Mar 2026 22:20:14 +0900",
+            "title": "'3개월 시한부' 오빠, '14년 절연' 동생 찾기…\"예상 밖 싸늘 반응\" 왜",
+            "link": "https://www.newsis.com/view/NISX20260315_0003548625",
+            "published": "Mon, 16 Mar 2026 00:00:00 +0900",
             "source": "뉴시스 속보"
         },
         {
-            "title": "1월 美 내구재수주 '보합'…\"코어 자본재도 정체로 설비투자 둔화\"",
-            "link": "https://www.newsis.com/view/NISX20260315_0003548953",
-            "published": "Sun, 15 Mar 2026 22:15:11 +0900",
+            "title": "[녹유 오늘의 운새] 73년생 짝을 맞춘 젓가락 어깨동무 해요",
+            "link": "https://www.newsis.com/view/NISX20260313_0003547969",
+            "published": "Mon, 16 Mar 2026 00:00:00 +0900",
             "source": "뉴시스 속보"
         },
         {
-            "title": "술 취해 남편에게 흉기 휘두른 70대 여성 체포",
-            "link": "https://www.newsis.com/view/NISX20260315_0003548967",
-            "published": "Sun, 15 Mar 2026 22:13:32 +0900",
+            "title": "日, ‘호르무즈 호위’ 요청에 신중론…“자위함 파견 문턱 매우 높다”(종합)",
+            "link": "https://www.newsis.com/view/NISX20260315_0003548929",
+            "published": "Sun, 15 Mar 2026 23:55:05 +0900",
             "source": "뉴시스 속보"
         },
         {
-            "title": "[속보]한국 여자 농구, '17회 연속' 월드컵 본선 진출",
-            "link": "https://www.newsis.com/view/NISX20260315_0003548965",
-            "published": "Sun, 15 Mar 2026 22:08:48 +0900",
+            "title": "UAE 푸자이라항 피격에도 원유 선적 인도 유조선 출항",
+            "link": "https://www.newsis.com/view/NISX20260315_0003548988",
+            "published": "Sun, 15 Mar 2026 23:52:30 +0900",
             "source": "뉴시스 속보"
         },
         {
-            "title": "단국대·영남대, 회장기전국장사 대학부 개인전 두 체급 석권",
-            "link": "https://www.newsis.com/view/NISX20260315_0003548959",
-            "published": "Sun, 15 Mar 2026 22:04:12 +0900",
+            "title": "패럴림픽 은퇴 무대 58㎞ 역주…떠나는 '거목' 신의현 \"후배들에 노하우 전수\"[2026 동계패럴림픽]",
+            "link": "https://www.newsis.com/view/NISX20260315_0003548970",
+            "published": "Sun, 15 Mar 2026 23:51:12 +0900",
             "source": "뉴시스 속보"
         },
         {
-            "title": "다카이치 日 총리, 사우디서 일본인 운송 한국에 감사 표명",
-            "link": "https://www.newsis.com/view/NISX20260315_0003548962",
-            "published": "Sun, 15 Mar 2026 22:03:04 +0900",
+            "title": "[올댓차이나] 中 2월 신규대출 195조원 ·80.89%↓…\"수요 부진 계속\"",
+            "link": "https://www.newsis.com/view/NISX20260315_0003548934",
+            "published": "Sun, 15 Mar 2026 23:38:10 +0900",
             "source": "뉴시스 속보"
         },
         {
@@ -722,6 +722,12 @@
             "source": "매일신문"
         },
         {
+            "title": "검증 없는 ‘받아쓰기’ 먹고 자랐던 ‘이재명 조폭 연루설’",
+            "link": "https://www.mediatoday.co.kr/news/articleView.html?idxno=333072",
+            "published": "2026-03-15 23:03:50",
+            "source": "미디어오늘 - 전체기사"
+        },
+        {
             "title": "파라마운트의 CNN 인수는 트럼프의 큰 그림?",
             "link": "https://www.mediatoday.co.kr/news/articleView.html?idxno=333070",
             "published": "2026-03-15 18:07:51",
@@ -773,12 +779,6 @@
             "title": "이재명 대통령이 김어준 우회비판? MBC·TV조선 동일하게 분석",
             "link": "https://www.mediatoday.co.kr/news/articleView.html?idxno=333059",
             "published": "2026-03-14 23:34:27",
-            "source": "미디어오늘 - 전체기사"
-        },
-        {
-            "title": "이 대통령 “조폭연루 보도 무책임” 국힘 “왜 김어준은 지적 안 하나”",
-            "link": "https://www.mediatoday.co.kr/news/articleView.html?idxno=333058",
-            "published": "2026-03-14 20:41:59",
             "source": "미디어오늘 - 전체기사"
         },
         {
