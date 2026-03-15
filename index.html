@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오늘의 주요 뉴스 대시보드</title>
+    <style>
+        body { font-family: 'Pretendard', sans-serif; background-color: #f3f4f6; color: #333; margin: 0; padding: 20px; line-height: 1.5; }
+        header { text-align: center; margin-bottom: 30px; }
+        h1 { font-size: 2rem; color: #1f2937; margin-bottom: 10px; }
+        .update-time { color: #6b7280; font-size: 0.9rem; }
+        .news-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; max-width: 1400px; margin: 0 auto; }
+        .news-card { background-color: #ffffff; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); padding: 20px; transition: transform 0.2s ease-in-out; }
+        .news-card:hover { transform: translateY(-5px); box-shadow: 0 8px 12px rgba(0,0,0,0.1); }
+        .news-card h2 { font-size: 1.25rem; margin-top: 0; margin-bottom: 15px; color: #2563eb; border-bottom: 2px solid #eff6ff; padding-bottom: 10px; }
+        .news-list { list-style: none; padding: 0; margin: 0; }
+        .news-list li { margin-bottom: 12px; }
+        .news-list li:last-child { margin-bottom: 0; }
+        .news-list a { text-decoration: none; color: #374151; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .news-list a:hover { color: #2563eb; text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>📰 실시간 종합 뉴스</h1>
+        <div class="update-time">마지막 업데이트: <span id="update-time">데이터를 불러오는 중...</span></div>
+    </header>
+
+    <div id="news-grid" class="news-grid"></div>
+
+    <script>
+        fetch('news.json')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('update-time').textContent = data.updated_at;
+                const groupedNews = data.news.reduce((acc, item) => {
+                    if (!acc[item.source]) acc[item.source] = [];
+                    acc[item.source].push(item);
+                    return acc;
+                }, {});
+
+                const gridContainer = document.getElementById('news-grid');
+                for (const [source, articles] of Object.entries(groupedNews)) {
+                    const card = document.createElement('div');
+                    card.className = 'news-card';
+                    
+                    const title = document.createElement('h2');
+                    title.textContent = source;
+                    card.appendChild(title);
+
+                    const ul = document.createElement('ul');
+                    ul.className = 'news-list';
+                    articles.forEach(article => {
+                        const li = document.createElement('li');
+                        const a = document.createElement('a');
+                        a.href = article.link;
+                        a.target = "_blank";
+                        a.title = article.title;
+                        a.textContent = article.title;
+                        li.appendChild(a);
+                        ul.appendChild(li);
+                    });
+                    card.appendChild(ul);
+                    gridContainer.appendChild(card);
+                }
+            })
+            .catch(error => {
+                console.error('Error fetching news:', error);
+                document.getElementById('update-time').textContent = "데이터를 불러오는데 실패했습니다.";
+            });
+    </script>
+</body>
+</html>
