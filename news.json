@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-03-22 17:54:06",
+    "updated_at": "2026-03-22 19:05:52",
     "news": [
         {
             "title": "한국은행 총재 후보에 신현송 국제결제은행 통화경제국장",
@@ -122,6 +122,18 @@
             "source": "이슈 Top10 | JTBC News"
         },
         {
+            "title": "미군, 태평양서 마약운반 의심선박 또 격침…최소 3명 사상",
+            "link": "https://www.yna.co.kr/view/AKR20260323002600087",
+            "published": "Mon, 23 Mar 2026 03:17:32 +0900",
+            "source": "연합뉴스 최신기사"
+        },
+        {
+            "title": "독일 집권 기민당, 라인란트팔츠주 선거 출구조사 1위",
+            "link": "https://www.yna.co.kr/view/AKR20260323002500081",
+            "published": "Mon, 23 Mar 2026 03:16:02 +0900",
+            "source": "연합뉴스 최신기사"
+        },
+        {
             "title": "내연기관차 수요 여전·정책 후퇴…車업계 전기차 계획 축소",
             "link": "https://www.yna.co.kr/view/AKR20260323002300085",
             "published": "Mon, 23 Mar 2026 02:33:46 +0900",
@@ -167,18 +179,6 @@
             "title": "트럼프 '초토화' 위협에 이란도 '강대강' 맞불(종합2보)",
             "link": "https://www.yna.co.kr/view/AKR20260322026952009",
             "published": "Mon, 23 Mar 2026 00:59:03 +0900",
-            "source": "연합뉴스 최신기사"
-        },
-        {
-            "title": "사모아 아피아 남남서쪽 바다서 규모 6.2 지진",
-            "link": "https://www.yna.co.kr/view/AKR20260323001100530",
-            "published": "Mon, 23 Mar 2026 00:58:11 +0900",
-            "source": "연합뉴스 최신기사"
-        },
-        {
-            "title": "\"트럼프 행정부 '6대 요구' 마련하고 이란 회담 대비 착수\"",
-            "link": "https://www.yna.co.kr/view/AKR20260323000200071",
-            "published": "Mon, 23 Mar 2026 00:13:30 +0900",
             "source": "연합뉴스 최신기사"
         },
         {
@@ -242,64 +242,70 @@
             "source": "동아일보 | 전체 뉴스"
         },
         {
-            "title": "北과 커넥션 효과인가… 이란, 4000㎞ 밖 英·美 기지에 탄도미사일 쏴",
-            "link": "https://www.chosun.com/international/international_general/2026/03/23/2XEMDYHXWBDXXESM6B6O3MV3RA/",
-            "published": "Sun, 22 Mar 2026 15:51:00 +0000",
+            "title": "\"초대박!\" 日, 4강 한일전 승리→亞 정상 탈환, FIFA랭킹 '임시' 5위 폭풍 점프…'브라질-프랑스 앞선다' 환호",
+            "link": "https://www.chosun.com/sports/football/2026/03/23/MM4DSOJWMYYDKMBZG42TSZBSMY/",
+            "published": "Sun, 22 Mar 2026 18:54:01 +0000",
             "source": "조선일보"
         },
         {
-            "title": "'손흥민 떠나고 강등 위기 대재앙, 리그 13경기 연속 무승' 토트넘 16위→17위 추락, 노팅엄에 0-3 참패..'소방수' 투도르 경질 임박",
-            "link": "https://www.chosun.com/sports/world-football/2026/03/23/GY4DGYLFGAYWIOJZMM3DGMBYMY/",
-            "published": "Sun, 22 Mar 2026 17:40:26 +0000",
+            "title": "'극명한 대조' 손흥민=필드골 0 행진→요리스=5경기 연속 무실점 신기록 찬사, LAFC 도스 산토스의 '팀 우선 용병술' 희비 갈랐다",
+            "link": "https://www.chosun.com/sports/world-football/2026/03/23/GYZWENJRGMYTIZBSMUYDCNRQMM/",
+            "published": "Sun, 22 Mar 2026 18:40:59 +0000",
             "source": "조선일보"
         },
         {
-            "title": "김광현의 '에이스' 계보 잇는다! 6년차 좌완의 마지막 점검, 왜 \"아쉬웠다\"고 했을까 [오!쎈 인천]",
-            "link": "https://www.chosun.com/sports/baseball/2026/03/23/HE2WGNLBGQ4TMNRTGZSDIZJQGU/",
-            "published": "Sun, 22 Mar 2026 17:20:00 +0000",
+            "title": "이순형 前 인제학원 이사장 별세",
+            "link": "https://www.chosun.com/national/regional/2026/03/23/QISSPYYDI5HCFPM4BEQ3VOGDXM/",
+            "published": "Sun, 22 Mar 2026 15:45:00 +0000",
             "source": "조선일보"
         },
         {
-            "title": "한화 LG 좋겠네, '홈런치는 백업포수' 도루 저지도 탁월, FA시장도 두렵지 않은 폭풍성장",
-            "link": "https://www.chosun.com/sports/baseball/2026/03/23/MQZDCOLBHE3TSNRVGQZDQOLCMY/",
-            "published": "Sun, 22 Mar 2026 16:50:57 +0000",
+            "title": "‘에스파’ 따라 면세점 쇼핑해요! 다국적 관광객 마음 잡는다",
+            "link": "https://www.chosun.com/special/special_section/2026/03/23/S7T43YALLRHK7AR6EG6JLKMJNE/",
+            "published": "Sun, 22 Mar 2026 15:38:00 +0000",
             "source": "조선일보"
         },
         {
-            "title": "'필드골 0' 손흥민, 대표팀에서도 최전방 아닌 2선으로 갈까...'결과' 만드는 오현규가 경쟁 '선두'",
-            "link": "https://www.chosun.com/sports/world-football/2026/03/23/MMZWINBWGYZDAOLEHBQWMMZSGQ/",
-            "published": "Sun, 22 Mar 2026 16:41:00 +0000",
+            "title": "[속보] 충격! 김혜성, 마이너리그 트리플A행…시범경기 타율 4할 넘는데 도대체 왜?",
+            "link": "https://www.chosun.com/sports/world-baseball/2026/03/23/G4ZGEZLFMUZTSNLGGQZDQZBVGE/",
+            "published": "Sun, 22 Mar 2026 18:11:00 +0000",
             "source": "조선일보"
         },
         {
-            "title": "“트럼프 행정부, 이란 회담 대비 착수… 6대 요구안 마련”",
-            "link": "https://www.chosun.com/international/international_general/2026/03/23/MQZWKZBSMJSTMNJTMM2DKMZVGE/",
-            "published": "Sun, 22 Mar 2026 16:39:48 +0000",
+            "title": "일회용 반창고, 영어로 ‘band’ 아니라고?",
+            "link": "https://www.chosun.com/national/education/2026/03/23/DSHV737L5VGNJB2Z3G5KLVMRZY/",
+            "published": "Sun, 22 Mar 2026 18:00:00 +0000",
             "source": "조선일보"
         },
         {
-            "title": "오브라이언트 3쿼터 17득점...정관장, 6강 노리는 KT에 ‘찬물’",
-            "link": "https://www.chosun.com/sports/basketball/2026/03/22/6V45RIG3IJAFTN275DAU5IAL7U/",
-            "published": "Sun, 22 Mar 2026 08:34:12 +0000",
+            "title": "족저근막염 방심하면 또 생긴다… 쉽게 예방하는 3분 운동",
+            "link": "https://www.chosun.com/sports/sports_general/2026/03/23/YSNV4XOC3FEVTO7UCQAKNKLAD4/",
+            "published": "Sun, 22 Mar 2026 18:00:00 +0000",
             "source": "조선일보"
         },
         {
-            "title": "\"얘 ML 갈 선수야\" 이정후의 특급 소개에 '타이거즈' 추억까지…'예비 빅리거' 김도영 꿈도 무르익는다",
-            "link": "https://www.chosun.com/sports/baseball/2026/03/23/HA4GCMRUGIZDMYLGGUYTOMJZMI/",
-            "published": "Sun, 22 Mar 2026 16:34:25 +0000",
+            "title": "호르무즈 봉쇄하면 에너지 패권두고 ‘미·중' 2차전 벌인다",
+            "link": "https://www.chosun.com/international/japan/2026/03/21/UMLN6P4ISFD7DHT2KYKA74SFSQ/",
+            "published": "Sun, 22 Mar 2026 18:00:00 +0000",
             "source": "조선일보"
         },
         {
-            "title": "김광현은 왜 선수 생명이 걸린 결정 내렸나, 성공 사례는?[SC 핫포커스]",
-            "link": "https://www.chosun.com/sports/baseball/2026/03/23/GI2WKOJRMMZDSOBRGI3DAY3DGE/",
-            "published": "Sun, 22 Mar 2026 16:20:33 +0000",
+            "title": "“동전 던지기로 하자”… 고민하던 고교 선택 문제를 동전에 맡기다",
+            "link": "https://www.chosun.com/national/education/2026/03/23/623ETI5G6ZHZNAPJPCZSBPUGMU/",
+            "published": "Sun, 22 Mar 2026 18:00:00 +0000",
             "source": "조선일보"
         },
         {
-            "title": "WBC 8강 한국 무자비하게 혼내주더니, 연장 계약 선물이...이정후보다 몸값 싸네",
-            "link": "https://www.chosun.com/sports/world-baseball/2026/03/23/MI3GMNZXHFSWCNJXG43DSMDGME/",
-            "published": "Sun, 22 Mar 2026 16:17:08 +0000",
+            "title": "“나이 드니 뼈가 잘 안 붙어요”… 나이가 아니라 호르몬 때문이다",
+            "link": "https://www.chosun.com/medical/2026/03/23/EMJBIS2BIBHYRHSFI3MMPPOKRE/",
+            "published": "Sun, 22 Mar 2026 18:00:00 +0000",
             "source": "조선일보"
+        },
+        {
+            "title": "//[단독] 美-이란전쟁 장기화에 추경 대폭 확대 … '청년 일자리 사업'도 포함",
+            "link": "https://www.hankyung.com/article/2026032282941",
+            "published": "Mon, 23 Mar 2026 03:26:55 +0900",
+            "source": "한국경제 | 전체뉴스"
         },
         {
             "title": "바이퍼, 2년 연속 FST 제패...BLG, 창단 첫 국제대회 우승",
@@ -353,12 +359,6 @@
             "title": "이란군 \"최첨단 '아라시2' 드론으로 이스라엘 공항 공격\"",
             "link": "https://www.hankyung.com/article/2026032283517",
             "published": "Sun, 22 Mar 2026 21:01:09 +0900",
-            "source": "한국경제 | 전체뉴스"
-        },
-        {
-            "title": "한국어전공? 한국문화전공!…대학 전공도 한류 따라 진화",
-            "link": "https://www.hankyung.com/article/2026032281441",
-            "published": "Sun, 22 Mar 2026 21:00:01 +0900",
             "source": "한국경제 | 전체뉴스"
         },
         {
@@ -494,7 +494,7 @@
             "source": "전체기사 : 뉴스 : 한겨레 뉴스 - 인터넷한겨레"
         },
         {
-            "title": "무사고 BTS 공연에 시 추산 4만명 모여…행정력 1만명 동원 논란 남아",
+            "title": "무사고 BTS 공연에 ‘시 추산 4만명’…행정력 1만명 동원 논란 남아",
             "link": "https://www.hani.co.kr/arti/society/society_general/1250556.html",
             "published": "",
             "source": "전체기사 : 뉴스 : 한겨레 뉴스 - 인터넷한겨레"
@@ -542,6 +542,24 @@
             "source": "전체기사 : 뉴스 : 한겨레 뉴스 - 인터넷한겨레"
         },
         {
+            "title": "대구·경북 맑고 큰 일교차…아침 -3도·한낮 21도",
+            "link": "https://www.newsis.com/view/NISX20260322_0003558717",
+            "published": "Mon, 23 Mar 2026 04:02:00 +0900",
+            "source": "뉴시스 속보"
+        },
+        {
+            "title": "상장 건설사 연봉 공개…1위는 19.9억 삼성물산 오세철",
+            "link": "https://www.newsis.com/view/NISX20260320_0003557660",
+            "published": "Mon, 23 Mar 2026 04:00:00 +0900",
+            "source": "뉴시스 속보"
+        },
+        {
+            "title": "\"호르무즈 봉쇄, 4월 넘기면 공급 부족 현실화\"…향후 2주 유가 분수령",
+            "link": "https://www.newsis.com/view/NISX20260323_0003558810",
+            "published": "Mon, 23 Mar 2026 03:02:19 +0900",
+            "source": "뉴시스 속보"
+        },
+        {
             "title": "고혈압인데 건강 생활습관 유지 안 하면…당뇨 위험 75%↑",
             "link": "https://www.newsis.com/view/NISX20260320_0003556758",
             "published": "Mon, 23 Mar 2026 02:00:00 +0900",
@@ -580,24 +598,6 @@
         {
             "title": "[알림]뉴시스 콘텐츠 저작권 고지",
             "link": "https://www.newsis.com/view/NISX20260323_0003558803",
-            "published": "Mon, 23 Mar 2026 00:00:00 +0900",
-            "source": "뉴시스 속보"
-        },
-        {
-            "title": "방탄소년단 진 \"BTS 활동, 7년 하고 빠지자는 마음 컸다\"",
-            "link": "https://www.newsis.com/view/NISX20260322_0003558775",
-            "published": "Mon, 23 Mar 2026 00:00:00 +0900",
-            "source": "뉴시스 속보"
-        },
-        {
-            "title": "\"아침엔 쌀쌀, 낮엔 포근\"…일교차 15~20도[오늘날씨]",
-            "link": "https://www.newsis.com/view/NISX20260322_0003558777",
-            "published": "Mon, 23 Mar 2026 00:00:00 +0900",
-            "source": "뉴시스 속보"
-        },
-        {
-            "title": "임창정 \"가스 배달·전단지 알바 했는데…이병헌 덕분에 가수 데뷔\"",
-            "link": "https://www.newsis.com/view/NISX20260322_0003558766",
             "published": "Mon, 23 Mar 2026 00:00:00 +0900",
             "source": "뉴시스 속보"
         },
