@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-03-26 12:34:42",
+    "updated_at": "2026-03-26 12:48:06",
     "news": [
         {
             "title": "\"도와달라\"던 할머니 갑자기 욕설…제주 잇단 신고 발칵",
@@ -120,6 +120,24 @@
             "link": "https://news.jtbc.co.kr/article/NB12291501",
             "published": "Thu, 26 Mar 2026 17:33:06 +0900",
             "source": "JTBC"
+        },
+        {
+            "title": "美주간 계속 실업수당 청구 1년 10개월만에 최저",
+            "link": "https://www.yna.co.kr/view/AKR20260326194400072",
+            "published": "Thu, 26 Mar 2026 21:42:51 +0900",
+            "source": "연합뉴스"
+        },
+        {
+            "title": "인천도시공사, 핸드볼 H리그 남자부 정규리그 우승",
+            "link": "https://www.yna.co.kr/view/AKR20260326193800007",
+            "published": "Thu, 26 Mar 2026 21:34:05 +0900",
+            "source": "연합뉴스"
+        },
+        {
+            "title": "대구 동구 공장서 화재…소방 대응 1단계 발령",
+            "link": "https://www.yna.co.kr/view/AKR20260326193900053",
+            "published": "Thu, 26 Mar 2026 21:33:09 +0900",
+            "source": "연합뉴스"
         },
         {
             "title": "김정은, 돌격소총 들고 미소…루카셴코 선물 공세에 '흡족'",
@@ -302,6 +320,114 @@
             "source": "연합뉴스"
         },
         {
+            "title": "與, 영광군수 금품수수 의혹에 \"근거 없다\" 결론",
+            "link": "https://www.yna.co.kr/view/AKR20260326186100001",
+            "published": "Thu, 26 Mar 2026 19:42:16 +0900",
+            "source": "연합뉴스"
+        },
+        {
+            "title": "KT '박윤영호' 곧 출범…인사 개편·AI 전략 재정비 본격화",
+            "link": "https://www.yna.co.kr/view/AKR20260326187600017",
+            "published": "Thu, 26 Mar 2026 19:33:35 +0900",
+            "source": "연합뉴스"
+        },
+        {
+            "title": "법원 \"학교 밖 청소년에도 학력평가 응시 기회 줘야\"",
+            "link": "https://www.yna.co.kr/view/AKR20260326167200004",
+            "published": "Thu, 26 Mar 2026 19:30:07 +0900",
+            "source": "연합뉴스"
+        },
+        {
+            "title": "'국힘 컷오프' 이범석 청주시장…내일 오전 입장 밝히기로",
+            "link": "https://www.yna.co.kr/view/AKR20260326187100064",
+            "published": "Thu, 26 Mar 2026 19:30:03 +0900",
+            "source": "연합뉴스"
+        },
+        {
+            "title": "영암군민속씨름단 최정만, 단양온달장사대회서 24번째 금강장사",
+            "link": "https://www.yna.co.kr/view/AKR20260326187200007",
+            "published": "Thu, 26 Mar 2026 19:29:46 +0900",
+            "source": "연합뉴스"
+        },
+        {
+            "title": "유바이오로직스 \"유팝라이프사이언스 주식 149억원에 추가취득\"",
+            "link": "https://www.yna.co.kr/view/AKR20260326185300008",
+            "published": "Thu, 26 Mar 2026 19:27:31 +0900",
+            "source": "연합뉴스"
+        },
+        {
+            "title": "日롬·도시바·미쓰비시, 전력반도체 통합 협의…세계 2위 되나",
+            "link": "https://www.yna.co.kr/view/AKR20260326186400073",
+            "published": "Thu, 26 Mar 2026 19:23:38 +0900",
+            "source": "연합뉴스"
+        },
+        {
+            "title": "태영건설, 이강석 단독 대표이사 체제로 전환",
+            "link": "https://www.yna.co.kr/view/AKR20260326186600003",
+            "published": "Thu, 26 Mar 2026 19:23:20 +0900",
+            "source": "연합뉴스"
+        },
+        {
+            "title": "G7 재무·에너지·중앙은행 50년만에 통합 회의 열기로",
+            "link": "https://www.yna.co.kr/view/AKR20260326186300081",
+            "published": "Thu, 26 Mar 2026 19:22:58 +0900",
+            "source": "연합뉴스"
+        },
+        {
+            "title": "대만 '제3세력' 커원저, 비리혐의로 17년형…차기 대선 길 막혀",
+            "link": "https://www.yna.co.kr/view/AKR20260326185900009",
+            "published": "Thu, 26 Mar 2026 19:20:35 +0900",
+            "source": "연합뉴스"
+        },
+        {
+            "title": "칠레서 고병원성 AI 발생…정부, 칠레산 가금육 수입 금지",
+            "link": "https://www.yna.co.kr/view/AKR20260326186200030",
+            "published": "Thu, 26 Mar 2026 19:19:52 +0900",
+            "source": "연합뉴스"
+        },
+        {
+            "title": "경인일보사, 홍정표 대표이사 사장 재선임",
+            "link": "https://www.yna.co.kr/view/AKR20260326185500061",
+            "published": "Thu, 26 Mar 2026 19:14:20 +0900",
+            "source": "연합뉴스"
+        },
+        {
+            "title": "'신속 독립' 주장 그린란드 정당, 덴마크 의회 첫 입성",
+            "link": "https://www.yna.co.kr/view/AKR20260326184600098",
+            "published": "Thu, 26 Mar 2026 19:13:30 +0900",
+            "source": "연합뉴스"
+        },
+        {
+            "title": "호주, '관광비자 소지' 이란 국민 입국 6개월간 금지",
+            "link": "https://www.yna.co.kr/view/AKR20260326185400084",
+            "published": "Thu, 26 Mar 2026 19:11:45 +0900",
+            "source": "연합뉴스"
+        },
+        {
+            "title": "제주 경찰 \"초등생 유괴 미수 의심 사례, 유괴 시도 아냐\"(종합)",
+            "link": "https://www.yna.co.kr/view/AKR20260326148451056",
+            "published": "Thu, 26 Mar 2026 19:06:43 +0900",
+            "source": "연합뉴스"
+        },
+        {
+            "title": "안세현, 8년 만에 AG 물살 가른다…대표선발전 접영 50m 우승",
+            "link": "https://www.yna.co.kr/view/AKR20260326184300007",
+            "published": "Thu, 26 Mar 2026 19:04:38 +0900",
+            "source": "연합뉴스"
+        },
+        {
+            "title": "경찰, 김병기 차남 소환…父 의혹 관련 참고인 조사(종합)",
+            "link": "https://www.yna.co.kr/view/AKR20260326150551004",
+            "published": "Thu, 26 Mar 2026 19:02:09 +0900",
+            "source": "연합뉴스"
+        },
+        {
+            "title": "‘쿠바 특급’ 실바 40점 맹폭…GS칼텍스, 현대건설 3-1로 꺾어",
+            "link": "https://www.donga.com/news/Sports/article/all/20260326/133618593/1",
+            "published": "Thu, 26 Mar 2026 21:37:00 +0900",
+            "source": "동아일보"
+        },
+        {
             "title": "靑국토비서관 3주택 모두 내놔…김현지, 2채중 1채 처분중",
             "link": "https://www.donga.com/news/Politics/article/all/20260326/133617544/1",
             "published": "Thu, 26 Mar 2026 21:17:00 +0900",
@@ -482,6 +608,168 @@
             "source": "동아일보"
         },
         {
+            "title": "서울시, 세계 금융경쟁력 평가서 4년 연속 ‘톱 10’",
+            "link": "https://www.donga.com/news/Society/article/all/20260326/133614110/1",
+            "published": "Thu, 26 Mar 2026 18:01:00 +0900",
+            "source": "동아일보"
+        },
+        {
+            "title": "美국방 “모든 총알이 적에게 명중하게 하소서” 펜타곤서 기도",
+            "link": "https://www.donga.com/news/Inter/article/all/20260326/133617155/2",
+            "published": "Thu, 26 Mar 2026 17:59:36 +0900",
+            "source": "동아일보"
+        },
+        {
+            "title": "‘막말 논란’ 대전 화재 공장 대표 “무조건 죄송…보상 최선”",
+            "link": "https://www.donga.com/news/Society/article/all/20260326/133617230/2",
+            "published": "Thu, 26 Mar 2026 17:59:00 +0900",
+            "source": "동아일보"
+        },
+        {
+            "title": "고동진, 장동혁에 “혼란 키우지 말고 결단 내리라” 사퇴 촉구",
+            "link": "https://www.donga.com/news/Politics/article/all/20260326/133617218/2",
+            "published": "Thu, 26 Mar 2026 17:56:26 +0900",
+            "source": "동아일보"
+        },
+        {
+            "title": "李 대통령 지시로 하천·계곡 재조사…불법시설 1만6000곳 적발",
+            "link": "https://www.donga.com/news/Society/article/all/20260326/133616588/1",
+            "published": "Thu, 26 Mar 2026 17:56:00 +0900",
+            "source": "동아일보"
+        },
+        {
+            "title": "김문희 한경국립대 부교수, 한국교육과정평가원 제14대 원장 선임",
+            "link": "https://www.donga.com/news/Society/article/all/20260326/133616945/1",
+            "published": "Thu, 26 Mar 2026 17:52:00 +0900",
+            "source": "동아일보"
+        },
+        {
+            "title": "농협상호금융, 차세대 정보계 시스템 구축",
+            "link": "https://www.donga.com/news/Economy/article/all/20260326/133617162/2",
+            "published": "Thu, 26 Mar 2026 17:47:31 +0900",
+            "source": "동아일보"
+        },
+        {
+            "title": "“오늘도 힘내세요” 감동어린 안내방송으로 시민들 위로한 지하철 승무원들",
+            "link": "https://www.donga.com/news/Society/article/all/20260326/133616811/1",
+            "published": "Thu, 26 Mar 2026 17:46:00 +0900",
+            "source": "동아일보"
+        },
+        {
+            "title": "“돈 되는 AI만 남는다”…오픈AI, ‘소라’ 접은 진짜 이유",
+            "link": "https://www.donga.com/news/Economy/article/all/20260326/133616096/2",
+            "published": "Thu, 26 Mar 2026 17:44:58 +0900",
+            "source": "동아일보"
+        },
+        {
+            "title": "HL그룹, 오픈이노베이션 유망 스타트업 공개 모집… 3개 업체 선발",
+            "link": "https://www.donga.com/news/Economy/article/all/20260326/133617136/1",
+            "published": "Thu, 26 Mar 2026 17:44:40 +0900",
+            "source": "동아일보"
+        },
+        {
+            "title": "‘동탄 그웬 160’ 4월 분양",
+            "link": "https://www.donga.com/news/list/article/all/20260326/133617081/2",
+            "published": "Thu, 26 Mar 2026 17:42:29 +0900",
+            "source": "동아일보"
+        },
+        {
+            "title": "카스트로프, 윙백 변신 통했다…혼혈 최초 월드컵 본선 도전",
+            "link": "https://www.donga.com/news/Sports/article/all/20260326/133615101/1",
+            "published": "Thu, 26 Mar 2026 17:33:00 +0900",
+            "source": "동아일보"
+        },
+        {
+            "title": "“음료 안 컵홀더 발견” 논란…본사 “매뉴얼 미준수, 재교육” [e글e글]",
+            "link": "https://www.donga.com/news/Society/article/all/20260326/133615693/2",
+            "published": "Thu, 26 Mar 2026 17:32:55 +0900",
+            "source": "동아일보"
+        },
+        {
+            "title": "5500만원→33억…탈북민 출신 박충권 의원, 재산 60배 뛴 비결은?",
+            "link": "https://www.donga.com/news/Politics/article/all/20260326/133616766/1",
+            "published": "Thu, 26 Mar 2026 17:30:00 +0900",
+            "source": "동아일보"
+        },
+        {
+            "title": "한진칼 사내이사 재선임·‘본사 이전 갈등’ HMM…주요 기업들 ‘슈퍼주총데이’",
+            "link": "https://www.donga.com/news/Economy/article/all/20260326/133614539/1",
+            "published": "Thu, 26 Mar 2026 17:27:00 +0900",
+            "source": "동아일보"
+        },
+        {
+            "title": "민생지원금 선별 지급, K패스 환급 확대…당정 ‘25조 추경’ 속도전",
+            "link": "https://www.donga.com/news/Politics/article/all/20260326/133615738/1",
+            "published": "Thu, 26 Mar 2026 17:25:00 +0900",
+            "source": "동아일보"
+        },
+        {
+            "title": "“피지컬 AI가 현장 바꿀 것”… GS건설, 임원 워크숍 개최",
+            "link": "https://www.donga.com/news/Economy/article/all/20260326/133616706/1",
+            "published": "Thu, 26 Mar 2026 17:24:06 +0900",
+            "source": "동아일보"
+        },
+        {
+            "title": "KCC글라스, ESG 경영 강화로 친환경 혁신 기업 도약",
+            "link": "https://www.donga.com/news/Economy/article/all/20260326/133615908/1",
+            "published": "Thu, 26 Mar 2026 17:24:00 +0900",
+            "source": "동아일보"
+        },
+        {
+            "title": "버리던 옷-식품 부산물까지 상품으로…고물가에 ‘리커머스 시장’ 활성화",
+            "link": "https://www.donga.com/news/Economy/article/all/20260326/133614605/1",
+            "published": "Thu, 26 Mar 2026 17:23:06 +0900",
+            "source": "동아일보"
+        },
+        {
+            "title": "전쟁 길어지자…WP “美, 우크라 지원품 중동 차출 검토”",
+            "link": "https://www.chosun.com/international/international_general/2026/03/26/CSYA5W5RBVG4RALDUSPGU2ASPM/",
+            "published": "Thu, 26 Mar 2026 12:41:51 +0000",
+            "source": "조선일보"
+        },
+        {
+            "title": "'쿠바 폭격기' 실바, 도저히 막을 수가 없다…GS칼텍스, 현대건설 폭격 '100% 확률' 잡았다 [PO1]",
+            "link": "https://www.chosun.com/sports/volleyball/2026/03/26/MRRDSMJQG42GGY3EGQZDMOBSHE/",
+            "published": "Thu, 26 Mar 2026 12:40:00 +0000",
+            "source": "조선일보"
+        },
+        {
+            "title": "이수경, 알고보니 김종국과 '친척' 사이...\"고모부네 사촌\" ('옥문아') [순간포착]",
+            "link": "https://www.chosun.com/entertainments/broadcast/2026/03/26/G4YTEMBQMFSGGMBWHA4DKNDEGE/",
+            "published": "Thu, 26 Mar 2026 11:58:00 +0000",
+            "source": "조선일보"
+        },
+        {
+            "title": "홍진경 딸 라엘 \"보정 영상에 악플 쏟아져..억울했다\" 눈물 ('공부왕찐천재')",
+            "link": "https://www.chosun.com/entertainments/broadcast/2026/03/26/MEYDEZRWGU3WGYJZMI2TEOBQGA/",
+            "published": "Thu, 26 Mar 2026 12:35:00 +0000",
+            "source": "조선일보"
+        },
+        {
+            "title": "트럼프 “이란, 합의 구걸하면서도 시간 끌어”…종전 협상 압박",
+            "link": "https://www.chosun.com/international/international_general/2026/03/26/HBTGEODFME4TGYZSMEYTANLGHA/",
+            "published": "Thu, 26 Mar 2026 12:34:17 +0000",
+            "source": "조선일보"
+        },
+        {
+            "title": "이스라엘 매체 “호르무즈 봉쇄 지휘 혁명수비대 해군사령관 사망”",
+            "link": "https://www.chosun.com/international/international_general/2026/03/26/TMAL34QY6VHXVGQN56DE7GVFQA/",
+            "published": "Thu, 26 Mar 2026 09:29:45 +0000",
+            "source": "조선일보"
+        },
+        {
+            "title": "강남도 놀란, 하지원의 충격적인 식사량..\"하루 한 끼반 먹어\" ('동네친구강나미')",
+            "link": "https://www.chosun.com/entertainments/broadcast/2026/03/26/MUZTQNDBGBRWIMZTGQ3TSOBXMY/",
+            "published": "Thu, 26 Mar 2026 12:06:00 +0000",
+            "source": "조선일보"
+        },
+        {
+            "title": "박성웅, 악역 연기 후 충격적 '후유증'으로 병원行...\"사람 해할까 봐 집에 칼 다 치워\" ('옥문아')",
+            "link": "https://www.chosun.com/entertainments/broadcast/2026/03/26/HA2TIODDMI4TQYZQMUZTKMLCGM/",
+            "published": "Thu, 26 Mar 2026 12:28:00 +0000",
+            "source": "조선일보"
+        },
+        {
             "title": "파비앙 \"루브르보다 국중박···케데헌 이후 더 핫해져\"('어서와')[순간포착]",
             "link": "https://www.chosun.com/entertainments/broadcast/2026/03/26/G5TDQM3GMYYDCOBZMUZDMMBSMY/",
             "published": "Thu, 26 Mar 2026 12:26:00 +0000",
@@ -509,12 +797,6 @@
             "title": "법원 “학교 밖 청소년 학평 응시 제한은 위법… 차별 없는 기회 줘야”",
             "link": "https://www.chosun.com/national/court_law/2026/03/26/2G4JSYPIJ5GS5ODYMCLC6HM4OU/",
             "published": "Thu, 26 Mar 2026 12:12:37 +0000",
-            "source": "조선일보"
-        },
-        {
-            "title": "이스라엘 매체 “호르무즈 봉쇄 지휘 혁명수비대 해군사령관 사망”",
-            "link": "https://www.chosun.com/international/international_general/2026/03/26/TMAL34QY6VHXVGQN56DE7GVFQA/",
-            "published": "Thu, 26 Mar 2026 09:29:45 +0000",
             "source": "조선일보"
         },
         {
@@ -548,12 +830,6 @@
             "source": "조선일보"
         },
         {
-            "title": "강남도 놀란, 하지원의 충격적인 식사량..\"하루 한 끼반 먹어\" ('동네친구강나미')",
-            "link": "https://www.chosun.com/entertainments/broadcast/2026/03/26/MUZTQNDBGBRWIMZTGQ3TSOBXMY/",
-            "published": "Thu, 26 Mar 2026 12:06:00 +0000",
-            "source": "조선일보"
-        },
-        {
             "title": "유류세 인하에도 최고가 인상으로 소매가 오를 듯",
             "link": "https://www.chosun.com/economy/economy_general/2026/03/26/GQ2GKMDBG4YTQZDBGFQTEMRRME/",
             "published": "Thu, 26 Mar 2026 12:04:37 +0000",
@@ -581,12 +857,6 @@
             "title": "애플까지 뛰어든 저가 노트북 경쟁!",
             "link": "https://www.chosun.com/kid/kid_economy/kid_honeybee/2026/03/26/EQGPE5SL25BHVGU4CRLCR6XUQQ/",
             "published": "Thu, 26 Mar 2026 09:09:43 +0000",
-            "source": "조선일보"
-        },
-        {
-            "title": "이수경, 알고보니 김종국과 '친척' 사이...\"고모부네 사촌\" ('옥문아') [순간포착]",
-            "link": "https://www.chosun.com/entertainments/broadcast/2026/03/26/G4YTEMBQMFSGGMBWHA4DKNDEGE/",
-            "published": "Thu, 26 Mar 2026 11:58:00 +0000",
             "source": "조선일보"
         },
         {
@@ -659,6 +929,96 @@
             "title": "윤혜진, 엄태웅♥ 의문의 1패…\"나 같은 남자 만나고 싶어” 솔직 ('왓씨티비') [순간포착]",
             "link": "https://www.chosun.com/entertainments/broadcast/2026/03/26/HEYDCNRQMNTDGZJUGU4DMYJTGE/",
             "published": "Thu, 26 Mar 2026 11:31:00 +0000",
+            "source": "조선일보"
+        },
+        {
+            "title": "'하정우 결혼설' 차정원, 절반이나 드러난 등···과감한 백슬립, 누구든 반하겠어",
+            "link": "https://www.chosun.com/entertainments/broadcast/2026/03/26/MYYWIN3EGAZGINRRHFSTMMLFGE/",
+            "published": "Thu, 26 Mar 2026 11:26:00 +0000",
+            "source": "조선일보"
+        },
+        {
+            "title": "모두가 속았다...하지원, 부모·친구들까지 깜빡 속은 데뷔 비하인드('동네친구강나미')",
+            "link": "https://www.chosun.com/entertainments/broadcast/2026/03/26/MEYWGNLCGZSTEMZQMUZDONZXHA/",
+            "published": "Thu, 26 Mar 2026 11:24:00 +0000",
+            "source": "조선일보"
+        },
+        {
+            "title": "'둘째 시험관' 황보라, 조기 폐경 충격 속 子 효자 모먼트에 감동",
+            "link": "https://www.chosun.com/entertainments/broadcast/2026/03/26/MJRWGM3EG5QTQY3EGE2TENZUMM/",
+            "published": "Thu, 26 Mar 2026 11:17:00 +0000",
+            "source": "조선일보"
+        },
+        {
+            "title": "'52kg' 한가인, 살 뺄 계절에 던진 일침...\"걷는 건 운동 NO, 허억허억 돼야해\" ('자유부인')",
+            "link": "https://www.chosun.com/entertainments/broadcast/2026/03/26/GIZTCZBVHAZWGZDCHA4TKMTGHA/",
+            "published": "Thu, 26 Mar 2026 11:16:00 +0000",
+            "source": "조선일보"
+        },
+        {
+            "title": "PO 1차전 시작! 도로공사는 감독 결별을 공식발표했다…\"불미스러운 사항에 고심했다\" [오피셜]",
+            "link": "https://www.chosun.com/sports/volleyball/2026/03/26/GM2DIM3CMNQTIOJSMFQWIMDDMM/",
+            "published": "Thu, 26 Mar 2026 11:15:49 +0000",
+            "source": "조선일보"
+        },
+        {
+            "title": "3명 숨진 영덕 풍력발전기 화재 나흘 만에 완진",
+            "link": "https://www.chosun.com/national/incident/2026/03/26/5L5S6MJUCNHRTHBKL4SWZ7LIH4/",
+            "published": "Thu, 26 Mar 2026 11:02:42 +0000",
+            "source": "조선일보"
+        },
+        {
+            "title": "신지, ♥문원과 결혼식 앞두고 뼈말라 됐다..더 뾰족해진 턱선",
+            "link": "https://www.chosun.com/entertainments/music/2026/03/26/GEZDGNDEMM2TSZRZGFRDSYLDGY/",
+            "published": "Thu, 26 Mar 2026 11:10:00 +0000",
+            "source": "조선일보"
+        },
+        {
+            "title": "'30·30 美국대 CF'가 이정후급 계약했다! → 이정후는 도대체 얼마나 초특급 대우를 받은 것인가",
+            "link": "https://www.chosun.com/sports/world-baseball/2026/03/26/GQ4DCMLBMI2TGMBSMZQTAOBZGA/",
+            "published": "Thu, 26 Mar 2026 11:06:03 +0000",
+            "source": "조선일보"
+        },
+        {
+            "title": "강남, 10년 만에 만난 하지원에 \"술 드셨냐\" 폭소 만발 ('동네친구강나미')",
+            "link": "https://www.chosun.com/entertainments/broadcast/2026/03/26/GMZTCYTFHFRDGMJWMM2TIMJRGE/",
+            "published": "Thu, 26 Mar 2026 11:02:00 +0000",
+            "source": "조선일보"
+        },
+        {
+            "title": "'이병헌♥' 이민정, 딸 서이 미모 기대된다···봄을 부르는 청순함",
+            "link": "https://www.chosun.com/entertainments/broadcast/2026/03/26/GQYDMYJVGY4DAYJVMRSTAMRZHA/",
+            "published": "Thu, 26 Mar 2026 11:01:00 +0000",
+            "source": "조선일보"
+        },
+        {
+            "title": "[비상 경제 대책] 자정부터 주유소 휘발유 최고 도매가 1724원→1934원 인상",
+            "link": "https://www.chosun.com/economy/economy_general/2026/03/26/G43TMY3BMNQTEMLDHFQTKZJTMI/",
+            "published": "Thu, 26 Mar 2026 11:00:00 +0000",
+            "source": "조선일보"
+        },
+        {
+            "title": "[비상 경제 대책] 돼지고기·계란 가격 담합 사업자, 정부 지원금 못 받는다",
+            "link": "https://www.chosun.com/economy/economy_general/2026/03/26/MU3WGMLGGNRDANTFGEZTAYJYME/",
+            "published": "Thu, 26 Mar 2026 11:00:00 +0000",
+            "source": "조선일보"
+        },
+        {
+            "title": "\"죄송합니다, 정말 죄송합니다\" 日 눈물의 사과는 없다…6개월 만의 복귀 '에이스' 자신감 폭발 \"월드컵 우승 충분히 가능\"",
+            "link": "https://www.chosun.com/sports/football/2026/03/26/MU2WGMDFMRSDGYRYGBRWCYRUMI/",
+            "published": "Thu, 26 Mar 2026 10:57:00 +0000",
+            "source": "조선일보"
+        },
+        {
+            "title": "'110억 한강뷰' 최화정, 모닝 루틴 공개 \"스카이라운지에서 커피+에그타르트\"('최화정이에요')",
+            "link": "https://www.chosun.com/entertainments/broadcast/2026/03/26/GY4TONZXMY3WIMRXGMYTEMZTGU/",
+            "published": "Thu, 26 Mar 2026 10:03:00 +0000",
+            "source": "조선일보"
+        },
+        {
+            "title": "'공무원♥' 곽튜브, 프로 아빠 다 됐다···분유 감별사 완료",
+            "link": "https://www.chosun.com/entertainments/broadcast/2026/03/26/GVSDMNLEGFRDSMZUHA3DAMZYGQ/",
+            "published": "Thu, 26 Mar 2026 10:54:00 +0000",
             "source": "조선일보"
         },
         {
@@ -842,6 +1202,126 @@
             "source": "한국경제"
         },
         {
+            "title": "탈탄소 투자 유도하는 '탄소가격제'…배출권 가격 낮은 한국선 무용지물",
+            "link": "https://www.hankyung.com/article/2026032693691",
+            "published": "Thu, 26 Mar 2026 19:00:01 +0900",
+            "source": "한국경제"
+        },
+        {
+            "title": "한국골프장경영협회 정기총회 개최…재산세·개소세협의회 구성",
+            "link": "https://www.hankyung.com/article/202603269649i",
+            "published": "Thu, 26 Mar 2026 18:48:32 +0900",
+            "source": "한국경제"
+        },
+        {
+            "title": "글로벌 AI 시장 흔든 '에이전트'…국내도 1100만 돌파",
+            "link": "https://www.hankyung.com/article/2026032693357",
+            "published": "Thu, 26 Mar 2026 18:44:01 +0900",
+            "source": "한국경제"
+        },
+        {
+            "title": "이근안 사망 소식에 '전기 고문' 피해자 '허탈'…\"사과 한마디 없었다\"",
+            "link": "https://www.hankyung.com/article/2026032695977",
+            "published": "Thu, 26 Mar 2026 18:33:14 +0900",
+            "source": "한국경제"
+        },
+        {
+            "title": "'내 허벅지 왜 이러지?'…당신이 몰랐던 '생존 근육'의 경고 [건강!톡]",
+            "link": "https://www.hankyung.com/article/2026032688367",
+            "published": "Thu, 26 Mar 2026 18:31:06 +0900",
+            "source": "한국경제"
+        },
+        {
+            "title": "\"김건희, 목걸이 너무 예쁘다 했다\"…서희건설 회장 법정 증언",
+            "link": "https://www.hankyung.com/article/2026032695897",
+            "published": "Thu, 26 Mar 2026 18:19:02 +0900",
+            "source": "한국경제"
+        },
+        {
+            "title": "세탁·건조 1시간 만에 끝…삼성 비스포크 AI 콤보",
+            "link": "https://www.hankyung.com/article/2026032694851",
+            "published": "Thu, 26 Mar 2026 18:18:22 +0900",
+            "source": "한국경제"
+        },
+        {
+            "title": "모빌리티·자율주행·로보틱스…유망 스타트업 발굴나선 HL",
+            "link": "https://www.hankyung.com/article/2026032694911",
+            "published": "Thu, 26 Mar 2026 18:17:50 +0900",
+            "source": "한국경제"
+        },
+        {
+            "title": "[포토] 492년 역사 영국 성공회, 사상 첫 여성 대주교 탄생",
+            "link": "https://www.hankyung.com/article/2026032694471",
+            "published": "Thu, 26 Mar 2026 18:14:38 +0900",
+            "source": "한국경제"
+        },
+        {
+            "title": "패키지는 '어르신용'이라는 편견…MZ 사로잡은 새 여행법 [한정협의 여행학 개론]",
+            "link": "https://www.hankyung.com/article/202603164248i",
+            "published": "Thu, 26 Mar 2026 18:13:14 +0900",
+            "source": "한국경제"
+        },
+        {
+            "title": "유럽이 주목한 K샴푸…그래비티, 글로벌 뷰티 박람회서 기술력 부각",
+            "link": "https://www.hankyung.com/article/202603269582g",
+            "published": "Thu, 26 Mar 2026 18:11:31 +0900",
+            "source": "한국경제"
+        },
+        {
+            "title": "곰 습격 이어지는 일본…동면 시즌 끝나자 다시 포획 나선다",
+            "link": "https://www.hankyung.com/article/2026032695117",
+            "published": "Thu, 26 Mar 2026 18:11:01 +0900",
+            "source": "한국경제"
+        },
+        {
+            "title": "[포토] 정청래 설득에 김부겸, 대구 출마 임박",
+            "link": "https://www.hankyung.com/article/2026032694771",
+            "published": "Thu, 26 Mar 2026 18:10:56 +0900",
+            "source": "한국경제"
+        },
+        {
+            "title": "패션 트렌드 미리 엿본다…'특화 AI' 꺼낸 뉴엔AI",
+            "link": "https://www.hankyung.com/article/202603269585g",
+            "published": "Thu, 26 Mar 2026 18:09:31 +0900",
+            "source": "한국경제"
+        },
+        {
+            "title": "후계자도 상속세 재원도 없다…PEF에 매각 말곤 답 안 나와",
+            "link": "https://www.hankyung.com/article/2026032694571",
+            "published": "Thu, 26 Mar 2026 18:08:38 +0900",
+            "source": "한국경제"
+        },
+        {
+            "title": "5兆어치 '국고채 바이백'…시장금리 진정",
+            "link": "https://www.hankyung.com/article/2026032694591",
+            "published": "Thu, 26 Mar 2026 18:07:35 +0900",
+            "source": "한국경제"
+        },
+        {
+            "title": "'배우자 출산휴가' 업무공백 대신한 동료에 지원금",
+            "link": "https://www.hankyung.com/article/2026032694581",
+            "published": "Thu, 26 Mar 2026 18:06:58 +0900",
+            "source": "한국경제"
+        },
+        {
+            "title": "길어지는 '중동 난타전'…리더십 흠집난 美, 뒤에서 웃는 中·러",
+            "link": "https://www.hankyung.com/article/2026032694511",
+            "published": "Thu, 26 Mar 2026 18:06:03 +0900",
+            "source": "한국경제"
+        },
+        {
+            "title": "고바이오랩 설립자 고광표 대표, 대표직 내려놓고 최고비전책임자(CVO) 맡아",
+            "link": "https://www.hankyung.com/article/202603269549i",
+            "published": "Thu, 26 Mar 2026 18:04:19 +0900",
+            "source": "한국경제"
+        },
+        {
+            "title": "'1억 공천헌금' 강선우…구속 풀어달라 했지만 결국 기각",
+            "link": "https://www.hankyung.com/article/2026032695517",
+            "published": "Thu, 26 Mar 2026 18:03:56 +0900",
+            "source": "한국경제"
+        },
+        {
             "title": "“종이홀더가 음료 안에 동동”…환불 요청에 커피숍 직원 반응 더 ‘황당’",
             "link": "https://www.mk.co.kr/news/society/11999667",
             "published": "Thu, 26 Mar 2026 21:14:36 +09:00",
@@ -1020,6 +1500,150 @@
             "link": "https://www.mk.co.kr/news/business/11999509",
             "published": "Thu, 26 Mar 2026 18:00:00 +09:00",
             "source": "매일경제"
+        },
+        {
+            "title": "\"美 거래하는 韓선박 호르무즈 통과 못해\"",
+            "link": "https://www.mk.co.kr/news/world/11999531",
+            "published": "Thu, 26 Mar 2026 17:59:58 +09:00",
+            "source": "매일경제"
+        },
+        {
+            "title": "구글 신기술에 삼전닉스 '쇼크'",
+            "link": "https://www.mk.co.kr/news/stock/11999529",
+            "published": "Thu, 26 Mar 2026 17:59:57 +09:00",
+            "source": "매일경제"
+        },
+        {
+            "title": "[뉴스&분석] '검은진주' 석유패권…다시 세계를 흔들다",
+            "link": "https://www.mk.co.kr/news/world/11999530",
+            "published": "Thu, 26 Mar 2026 17:59:57 +09:00",
+            "source": "매일경제"
+        },
+        {
+            "title": "산재와 전쟁에도…사고 피해자 분기 첫 4만명",
+            "link": "https://www.mk.co.kr/news/society/11999526",
+            "published": "Thu, 26 Mar 2026 17:59:41 +09:00",
+            "source": "매일경제"
+        },
+        {
+            "title": "‘성폭력 피해 장애인 진술영상’ 증거 사용, 헌재서 가까스로 합헌",
+            "link": "https://www.mk.co.kr/news/society/11999522",
+            "published": "Thu, 26 Mar 2026 17:58:15 +09:00",
+            "source": "매일경제"
+        },
+        {
+            "title": "베트남 꽂힌 최태원·정기선",
+            "link": "https://www.mk.co.kr/news/business/11999521",
+            "published": "Thu, 26 Mar 2026 17:58:04 +09:00",
+            "source": "매일경제"
+        },
+        {
+            "title": "LS에코에너지, CB교환 통해…희토류 2위 호주기업과 협업",
+            "link": "https://www.mk.co.kr/news/business/11999518",
+            "published": "Thu, 26 Mar 2026 17:58:03 +09:00",
+            "source": "매일경제"
+        },
+        {
+            "title": "장금상선, 유조선 자회사 지분 팔아 7350억 확보",
+            "link": "https://www.mk.co.kr/news/business/11999517",
+            "published": "Thu, 26 Mar 2026 17:58:02 +09:00",
+            "source": "매일경제"
+        },
+        {
+            "title": "구광모 \"AI 전환, 빠른 실행력이 승부처\"",
+            "link": "https://www.mk.co.kr/news/business/11999515",
+            "published": "Thu, 26 Mar 2026 17:58:01 +09:00",
+            "source": "매일경제"
+        },
+        {
+            "title": "삼성·LG \"더 똑똑해진 AI 가전으로 불황 돌파\"",
+            "link": "https://www.mk.co.kr/news/business/11999516",
+            "published": "Thu, 26 Mar 2026 17:58:01 +09:00",
+            "source": "매일경제"
+        },
+        {
+            "title": "강덕현 아산병원 교수 심장환자 연구 … 전세계 의사들 보는 교과서에 실렸다",
+            "link": "https://www.mk.co.kr/news/society/11999511",
+            "published": "Thu, 26 Mar 2026 17:56:47 +09:00",
+            "source": "매일경제"
+        },
+        {
+            "title": "국고채 금리 급등에 … 정부, 5조 조기상환 나서",
+            "link": "https://www.mk.co.kr/news/economy/11999508",
+            "published": "Thu, 26 Mar 2026 17:56:11 +09:00",
+            "source": "매일경제"
+        },
+        {
+            "title": "돌봄노조 교섭 요구에 협의 나선 정부, 잘못된 선례 될수도 [사설]",
+            "link": "https://www.mk.co.kr/news/editorial/11999504",
+            "published": "Thu, 26 Mar 2026 17:55:52 +09:00",
+            "source": "매일경제"
+        },
+        {
+            "title": "고유가發 추경에 민생지원금이 주력 대책이 돼선 안돼 [사설]",
+            "link": "https://www.mk.co.kr/news/editorial/11999503",
+            "published": "Thu, 26 Mar 2026 17:55:51 +09:00",
+            "source": "매일경제"
+        },
+        {
+            "title": "[필동정담] LG가 판 키운 '사외이사 의장'",
+            "link": "https://www.mk.co.kr/news/columnists/11999501",
+            "published": "Thu, 26 Mar 2026 17:55:50 +09:00",
+            "source": "매일경제"
+        },
+        {
+            "title": "정말 과도한 우려일까?...스테이블코인 ‘이자금지’ 공포에 대폭락 ‘서클’",
+            "link": "https://www.mk.co.kr/news/world/11999499",
+            "published": "Thu, 26 Mar 2026 17:55:40 +09:00",
+            "source": "매일경제"
+        },
+        {
+            "title": "“너희 주가 관리 안 하냐?” 주주들 버럭에…진땀 흘린 최수연·정신아",
+            "link": "https://www.mk.co.kr/news/business/11999498",
+            "published": "Thu, 26 Mar 2026 17:54:24 +09:00",
+            "source": "매일경제"
+        },
+        {
+            "title": "청소년 10명 중 4명 ‘스마트폰 과의존’…역대 최고 수준",
+            "link": "https://www.mk.co.kr/news/economy/11999497",
+            "published": "Thu, 26 Mar 2026 17:54:23 +09:00",
+            "source": "매일경제"
+        },
+        {
+            "title": "신설법인 3월 20일 ~ 3월 26일",
+            "link": "https://www.mk.co.kr/news/business/11999496",
+            "published": "Thu, 26 Mar 2026 17:53:53 +09:00",
+            "source": "매일경제"
+        },
+        {
+            "title": "거침없었던 한미일 반도체株 급제동",
+            "link": "https://www.mk.co.kr/news/stock/11999494",
+            "published": "Thu, 26 Mar 2026 17:53:46 +09:00",
+            "source": "매일경제"
+        },
+        {
+            "title": "음성 필름 제조공장서 화재, 야산으로 번져···대응 1단계 발령",
+            "link": "https://www.khan.co.kr/article/202603262145001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+            "published": "",
+            "source": "경향신문"
+        },
+        {
+            "title": "김형남 전 군인권센터 사무국장 \"2030 낮은 투표율, '내 이야기 같지 않은' 정책 탓\"",
+            "link": "https://www.khan.co.kr/article/202603262139005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+            "published": "",
+            "source": "경향신문"
+        },
+        {
+            "title": "계란·돼지고기 담합 땐 지원금 못 받는다",
+            "link": "https://www.khan.co.kr/article/202603262138005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+            "published": "",
+            "source": "경향신문"
+        },
+        {
+            "title": "[경향포토] “우리가 우승”",
+            "link": "https://www.khan.co.kr/article/202603262137001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+            "published": "",
+            "source": "경향신문"
         },
         {
             "title": "한국교육과정평가원 신임원장에 김문희 부교수",
@@ -1202,6 +1826,108 @@
             "source": "경향신문"
         },
         {
+            "title": "‘배우자 출산휴가’ 업무 대신한 동료에 지원금",
+            "link": "https://www.khan.co.kr/article/202603262104005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+            "published": "",
+            "source": "경향신문"
+        },
+        {
+            "title": "“천사 아가 기억할게”…‘살해된 여수 영아’ 기리는 170개 근조화환",
+            "link": "https://www.khan.co.kr/article/202603262103005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+            "published": "",
+            "source": "경향신문"
+        },
+        {
+            "title": "[포토뉴스]“이태원 참사 철저히 수사해달라” 절절한 유가족",
+            "link": "https://www.khan.co.kr/article/202603262102005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+            "published": "",
+            "source": "경향신문"
+        },
+        {
+            "title": "겨울철 이상고온에 사라지는 꿀벌, 정부 ‘인공 겨울’ 조성해 보호한다",
+            "link": "https://www.khan.co.kr/article/202603262101015/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+            "published": "",
+            "source": "경향신문"
+        },
+        {
+            "title": "학교 밖 청소년, 교육청에 승소…‘학력평가 응시 제한’ 폐지되나",
+            "link": "https://www.khan.co.kr/article/202603262101005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+            "published": "",
+            "source": "경향신문"
+        },
+        {
+            "title": "“검사에 기록만 보고 판단하라는 건 100년 전으로 사법 후퇴”",
+            "link": "https://www.khan.co.kr/article/202603262100005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+            "published": "",
+            "source": "경향신문"
+        },
+        {
+            "title": "파키스탄 부총리 “미·이란 간접 협상 진행 중”···중재 역할 첫 공식 확인",
+            "link": "https://www.khan.co.kr/article/202603262059001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+            "published": "",
+            "source": "경향신문"
+        },
+        {
+            "title": "‘쇄신 대상’ 꼽힌 박민영 재임명…뭉칠 힘도 의지도 없는 국힘",
+            "link": "https://www.khan.co.kr/article/202603262058005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+            "published": "",
+            "source": "경향신문"
+        },
+        {
+            "title": "“분열 단초 ‘백바지 대 난닝구’, 그때도 유시민이 핵심 세력”",
+            "link": "https://www.khan.co.kr/article/202603262055015/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+            "published": "",
+            "source": "경향신문"
+        },
+        {
+            "title": "이 대통령 “전기료 변동 없을 것”…‘범국민 절약’ 당부",
+            "link": "https://www.khan.co.kr/article/202603262055005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+            "published": "",
+            "source": "경향신문"
+        },
+        {
+            "title": "정청래 “선거 필승 카드” 김부겸 “도망 못 가게 퇴로 차단하셔”",
+            "link": "https://www.khan.co.kr/article/202603262053005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+            "published": "",
+            "source": "경향신문"
+        },
+        {
+            "title": "정부, 31일 추경안 제출…지방·취약층 우대 ‘민생지원금’ 검토",
+            "link": "https://www.khan.co.kr/article/202603262052005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+            "published": "",
+            "source": "경향신문"
+        },
+        {
+            "title": "기후부 “차량용 요소·요소수 2개월20일분 비축…충분”",
+            "link": "https://www.khan.co.kr/article/202603262051005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+            "published": "",
+            "source": "경향신문"
+        },
+        {
+            "title": "뻑하면 확 뛰는 기름값…정유사 원가 산정 방식 손본다",
+            "link": "https://www.khan.co.kr/article/202603262050005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+            "published": "",
+            "source": "경향신문"
+        },
+        {
+            "title": "물류비 압박받는 기업들 “정책적 지원 필요”",
+            "link": "https://www.khan.co.kr/article/202603262041005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+            "published": "",
+            "source": "경향신문"
+        },
+        {
+            "title": "‘중동 의존도 83%’ 나프타 공급 차질…중소기업들 ‘발동동’",
+            "link": "https://www.khan.co.kr/article/202603262039005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+            "published": "",
+            "source": "경향신문"
+        },
+        {
+            "title": "민주, 김병욱 성남시장 단수공천 철회",
+            "link": "https://www.hani.co.kr/arti/politics/bluehouse/1251350.html",
+            "published": "",
+            "source": "한겨레"
+        },
+        {
             "title": "한화솔루션, 2.4조 유증 폭탄에 주가 18% 급락…금감원 “중점 심사”",
             "link": "https://www.hani.co.kr/arti/economy/marketing/1251349.html",
             "published": "",
@@ -1262,7 +1988,7 @@
             "source": "한겨레"
         },
         {
-            "title": "트럼프, 이란에 “너무 늦기 전에 진지해져라” 압박",
+            "title": "‘최후통첩’ 시한 코앞 트럼프 “이란, 너무 늦기 전에 진지하게 협상하라”",
             "link": "https://www.hani.co.kr/arti/international/america/1251339.html",
             "published": "",
             "source": "한겨레"
@@ -1376,10 +2102,22 @@
             "source": "한겨레"
         },
         {
-            "title": "푸틴·트럼프·네타냐후의 전략적 빈곤 [세상읽기]",
-            "link": "https://www.hani.co.kr/arti/opinion/column/1251320.html",
-            "published": "",
-            "source": "한겨레"
+            "title": "챔프전 진출 100% 확률 잡은 이영택 감독 \"2차전서 끝내겠다\"",
+            "link": "https://www.newsis.com/view/NISX20260326_0003566033",
+            "published": "Thu, 26 Mar 2026 21:44:36 +0900",
+            "source": "뉴시스"
+        },
+        {
+            "title": "김경수 민주당 경남지사 후보, NC파크 점검…\"안전 타협 없다\"",
+            "link": "https://www.newsis.com/view/NISX20260326_0003566032",
+            "published": "Thu, 26 Mar 2026 21:38:09 +0900",
+            "source": "뉴시스"
+        },
+        {
+            "title": "최정만, 단양온달씨름대회서 통산 24번째 금강장사",
+            "link": "https://www.newsis.com/view/NISX20260326_0003566020",
+            "published": "Thu, 26 Mar 2026 21:36:21 +0900",
+            "source": "뉴시스"
         },
         {
             "title": "\"코로나 때처럼 다시 재택?\"…연료 위기에 각국 긴급 조치 검토",
@@ -1559,6 +2297,108 @@
             "title": "달콤한 논산딸기에 푹 빠지다…26일 시민가족공원서 개막식",
             "link": "https://www.newsis.com/view/NISX20260326_0003565995",
             "published": "Thu, 26 Mar 2026 19:58:10 +0900",
+            "source": "뉴시스"
+        },
+        {
+            "title": "\"공연장 와서  먹고, 눕고, 음악 들어도 괜찮아\" …카입의 실험 '파빌리온 72'",
+            "link": "https://www.newsis.com/view/NISX20260326_0003565933",
+            "published": "Thu, 26 Mar 2026 19:42:46 +0900",
+            "source": "뉴시스"
+        },
+        {
+            "title": "GCC 사무총장 \"이란, 호르무즈 안전 통과 대가로 선박들에 통행료 부과\"",
+            "link": "https://www.newsis.com/view/NISX20260326_0003565989",
+            "published": "Thu, 26 Mar 2026 19:38:52 +0900",
+            "source": "뉴시스"
+        },
+        {
+            "title": "이 대통령, 서산 석유 비축기지 점검…\"한 치의 공백 발생하지 않게 대비해야\"(종합)",
+            "link": "https://www.newsis.com/view/NISX20260326_0003565993",
+            "published": "Thu, 26 Mar 2026 19:35:23 +0900",
+            "source": "뉴시스"
+        },
+        {
+            "title": "NH투자증권, IMA 1호 상품 출시…4000억원 모집",
+            "link": "https://www.newsis.com/view/NISX20260326_0003565992",
+            "published": "Thu, 26 Mar 2026 19:32:24 +0900",
+            "source": "뉴시스"
+        },
+        {
+            "title": "中, 日기업 포럼 배제에 \"반성하고 조건 마련해야\"",
+            "link": "https://www.newsis.com/view/NISX20260326_0003565988",
+            "published": "Thu, 26 Mar 2026 19:30:56 +0900",
+            "source": "뉴시스"
+        },
+        {
+            "title": "코르티스 미니 2집, 글로벌 흥행 청신호…스포티파이 프리세이브 50만↑",
+            "link": "https://www.newsis.com/view/NISX20260326_0003565977",
+            "published": "Thu, 26 Mar 2026 19:27:53 +0900",
+            "source": "뉴시스"
+        },
+        {
+            "title": "OECD, 이란전쟁으로 주요국 인플레 상향…평균 2.8%에서 4.0%로",
+            "link": "https://www.newsis.com/view/NISX20260326_0003565981",
+            "published": "Thu, 26 Mar 2026 19:27:48 +0900",
+            "source": "뉴시스"
+        },
+        {
+            "title": "양주 공공병원 경제성 확보…경기북부 의료거점 구축 '청신호'",
+            "link": "https://www.newsis.com/view/NISX20260326_0003565979",
+            "published": "Thu, 26 Mar 2026 19:26:06 +0900",
+            "source": "뉴시스"
+        },
+        {
+            "title": "[속보]GCC 사무총장 \"이란, 호르무즈 안전 통과 대가로 선박들에 통행료 부과\"",
+            "link": "https://www.newsis.com/view/NISX20260326_0003565990",
+            "published": "Thu, 26 Mar 2026 19:24:38 +0900",
+            "source": "뉴시스"
+        },
+        {
+            "title": "프로듀서 엘 캐피탄, 아티스트로 첫발…오늘 '브레이킹 스루' 발매",
+            "link": "https://www.newsis.com/view/NISX20260326_0003565976",
+            "published": "Thu, 26 Mar 2026 19:21:41 +0900",
+            "source": "뉴시스"
+        },
+        {
+            "title": "\"낯선 것 아닌 새로운 것…진짜 여자들의 이야기\"…뮤지컬 '렘피카'",
+            "link": "https://www.newsis.com/view/NISX20260326_0003565930",
+            "published": "Thu, 26 Mar 2026 19:18:11 +0900",
+            "source": "뉴시스"
+        },
+        {
+            "title": "\"월 4만원에 요양원 입주\"…中 25세 여성의 '이색 동거' 화제",
+            "link": "https://www.newsis.com/view/NISX20260326_0003565487",
+            "published": "Thu, 26 Mar 2026 19:18:00 +0900",
+            "source": "뉴시스"
+        },
+        {
+            "title": "中자오러지 \"패권주의 위협 증가…中, 자유무역 지킬 것\"",
+            "link": "https://www.newsis.com/view/NISX20260326_0003565968",
+            "published": "Thu, 26 Mar 2026 19:17:38 +0900",
+            "source": "뉴시스"
+        },
+        {
+            "title": "칠레서 고병원성 AI 발생…가금육·가금생산물 수입 금지",
+            "link": "https://www.newsis.com/view/NISX20260326_0003565983",
+            "published": "Thu, 26 Mar 2026 19:16:36 +0900",
+            "source": "뉴시스"
+        },
+        {
+            "title": "전수미, 마사회장 만나 새만금 제5렛츠런파크 유치 제안",
+            "link": "https://www.newsis.com/view/NISX20260326_0003565211",
+            "published": "Thu, 26 Mar 2026 19:15:53 +0900",
+            "source": "뉴시스"
+        },
+        {
+            "title": "여자 프로배구 한국도로공사, 김종민 감독과 10년 동행 마무리",
+            "link": "https://www.newsis.com/view/NISX20260326_0003565982",
+            "published": "Thu, 26 Mar 2026 19:15:51 +0900",
+            "source": "뉴시스"
+        },
+        {
+            "title": "與 \"장세일 영광군수 감찰 결과 '뇌물수수 의혹' 근거없음 확인\"",
+            "link": "https://www.newsis.com/view/NISX20260326_0003565985",
+            "published": "Thu, 26 Mar 2026 19:15:28 +0900",
             "source": "뉴시스"
         },
         {
@@ -1742,6 +2582,126 @@
             "source": "국제신문"
         },
         {
+            "title": "“고품질 제품 고가판매 전략, 영업이익 높은 비결”",
+            "link": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20260327.22017008490",
+            "published": "2026-03-26T19:21:51+09:00",
+            "source": "국제신문"
+        },
+        {
+            "title": "朴시장 잇단 시정행사 “선거용” vs “정당한 소통”",
+            "link": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20260327.22002008489",
+            "published": "2026-03-26T19:20:20+09:00",
+            "source": "국제신문"
+        },
+        {
+            "title": "‘부산 글로벌허브법’ 행안위 통과",
+            "link": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0900&key=20260327.22005008430",
+            "published": "2026-03-26T19:19:08+09:00",
+            "source": "국제신문"
+        },
+        {
+            "title": "국내최대 구산동 지석묘 개방",
+            "link": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20260327.22002008488",
+            "published": "2026-03-26T19:18:19+09:00",
+            "source": "국제신문"
+        },
+        {
+            "title": "본인 퇴사와 무관했는데 살해…표적된 기장 2명 더 있었다",
+            "link": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20260327.22006008422",
+            "published": "2026-03-26T19:17:47+09:00",
+            "source": "국제신문"
+        },
+        {
+            "title": "부산문화회관 차재근 대표 1년 연임…예산 확보 과제",
+            "link": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0500&key=20260327.22002008487",
+            "published": "2026-03-26T19:17:39+09:00",
+            "source": "국제신문"
+        },
+        {
+            "title": "남포동 벽돌추락 인부 사망, 원청대표 징역 1년 법정구속",
+            "link": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20260327.22006008427",
+            "published": "2026-03-26T19:16:09+09:00",
+            "source": "국제신문"
+        },
+        {
+            "title": "벌금형 장예찬, 5년간 선거 못 나온다(종합)",
+            "link": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20260327.22006008308",
+            "published": "2026-03-26T19:15:08+09:00",
+            "source": "국제신문"
+        },
+        {
+            "title": "[한 손 뉴스] 구글 리서치 발표 ‘터보퀀트’, 성능 유지하며 메모리 감축",
+            "link": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20260327.22002008485",
+            "published": "2026-03-26T19:14:37+09:00",
+            "source": "국제신문"
+        },
+        {
+            "title": "청탁 선물 받은 부산항운노조위원장 벌금형",
+            "link": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20260327.22006008222",
+            "published": "2026-03-26T19:14:03+09:00",
+            "source": "국제신문"
+        },
+        {
+            "title": "개화 앞두고 무리한 가지치기…뼈대만 남은 산복도로 벚나무",
+            "link": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20260327.22002008483",
+            "published": "2026-03-26T19:12:15+09:00",
+            "source": "국제신문"
+        },
+        {
+            "title": "“택시운전사 늙어가는 부산, 자율주행 기술 도입 어떨까”",
+            "link": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20260327.22008008361",
+            "published": "2026-03-26T19:12:00+09:00",
+            "source": "국제신문"
+        },
+        {
+            "title": "“아이 낳으면 2000만 원” 인구감소 거창 파격지원",
+            "link": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20260327.22008008199",
+            "published": "2026-03-26T19:11:06+09:00",
+            "source": "국제신문"
+        },
+        {
+            "title": "을지훈련 중 개인 시험 응시 창녕군수 사과",
+            "link": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20260327.22008008214",
+            "published": "2026-03-26T19:10:15+09:00",
+            "source": "국제신문"
+        },
+        {
+            "title": "나프타 쇼크 확산…부산 고무·車부품 업체 “공장 멈출 판”",
+            "link": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20260327.22004008482",
+            "published": "2026-03-26T19:08:45+09:00",
+            "source": "국제신문"
+        },
+        {
+            "title": "부산시, 공공계약 24시 감시…“지역상품 구매율 70% 상향”",
+            "link": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20260327.22010008288",
+            "published": "2026-03-26T19:08:42+09:00",
+            "source": "국제신문"
+        },
+        {
+            "title": "한은 “중동사태 장기화 땐 금융위기 수준 직면”",
+            "link": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20260327.22004008481",
+            "published": "2026-03-26T19:08:36+09:00",
+            "source": "국제신문"
+        },
+        {
+            "title": "부산 아파트값 상승세 ‘주춤’",
+            "link": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20260327.22010008381",
+            "published": "2026-03-26T19:07:34+09:00",
+            "source": "국제신문"
+        },
+        {
+            "title": "현산 사명 ‘IPARK’로…애경은 태광그룹 품에",
+            "link": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20260327.22010008269",
+            "published": "2026-03-26T19:06:02+09:00",
+            "source": "국제신문"
+        },
+        {
+            "title": "관광객 사로 잡은 ‘더현대 팝업 인 광안리’",
+            "link": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0900&key=20260327.22010008433",
+            "published": "2026-03-26T19:04:59+09:00",
+            "source": "국제신문"
+        },
+        {
             "title": "한옥 전문가 100명 국비로 양성…전통 건축 인력 기반 확대",
             "link": "https://www.imaeil.com/page/view/2026032614173692866",
             "published": "2026-03-27 06:00:00",
@@ -1922,6 +2882,126 @@
             "source": "매일신문"
         },
         {
+            "title": "민주화 운동가 강압수사…'고문 기술자' 이근안 사망, 향년 88세",
+            "link": "https://www.imaeil.com/page/view/2026032617363936263",
+            "published": "2026-03-26 17:44:35",
+            "source": "매일신문"
+        },
+        {
+            "title": "캄보디아 사기조직 유인책 일당 징역형 선고",
+            "link": "https://www.imaeil.com/page/view/2026032617414640136",
+            "published": "2026-03-26 17:42:02",
+            "source": "매일신문"
+        },
+        {
+            "title": "이월드, '원더랜드'로 변신…체험형 콘텐츠로 봄 시즌 공략",
+            "link": "https://www.imaeil.com/page/view/2026032617214291566",
+            "published": "2026-03-26 17:31:11",
+            "source": "매일신문"
+        },
+        {
+            "title": "안동 또래 괴롭힘 비극… 10대 가해자 징역 장기 4년·단기 3년",
+            "link": "https://www.imaeil.com/page/view/2026032421475659886",
+            "published": "2026-03-26 17:28:32",
+            "source": "매일신문"
+        },
+        {
+            "title": "김소영, 경계성지능?…\"IQ 70대, 하위 10%…사이코패스 진단 신중해야\"",
+            "link": "https://www.imaeil.com/page/view/2026032617132062707",
+            "published": "2026-03-26 17:13:30",
+            "source": "매일신문"
+        },
+        {
+            "title": "박영희 여성벤처협회 대구경북지회장 취임…\"동반성장 기반 구축\"",
+            "link": "https://www.imaeil.com/page/view/2026032617053612071",
+            "published": "2026-03-26 17:06:06",
+            "source": "매일신문"
+        },
+        {
+            "title": "'룸살롱 폭행·빚투' 이혁재, 국힘 청년 오디션서 \"누구나 실수해\"",
+            "link": "https://www.imaeil.com/page/view/2026032616350549463",
+            "published": "2026-03-26 16:54:09",
+            "source": "매일신문"
+        },
+        {
+            "title": "대구시, 하천·계곡 불법 점용시설 '무관용' 전면 정비",
+            "link": "https://www.imaeil.com/page/view/2026032616485910274",
+            "published": "2026-03-26 16:49:08",
+            "source": "매일신문"
+        },
+        {
+            "title": "등판 몸푸는 김부겸, 길 헤매는 국힘…판세 요동치는 대구시장 선거",
+            "link": "https://www.imaeil.com/page/view/2026032616132945028",
+            "published": "2026-03-26 16:48:18",
+            "source": "매일신문"
+        },
+        {
+            "title": "범여권 조희대 탄핵안 추진…국힘 \"유튜브발 의혹에 사법부 겁박\"",
+            "link": "https://www.imaeil.com/page/view/2026032616181818080",
+            "published": "2026-03-26 16:48:08",
+            "source": "매일신문"
+        },
+        {
+            "title": "생후 4개월 영아 학대 살해 '해든이' 친모에 무기징역 구형",
+            "link": "https://www.imaeil.com/page/view/2026032616374218320",
+            "published": "2026-03-26 16:37:48",
+            "source": "매일신문"
+        },
+        {
+            "title": "1년 새 '5550만원→33억' 재산 60배 폭증한 국회의원, 비결은",
+            "link": "https://www.imaeil.com/page/view/2026032616165623570",
+            "published": "2026-03-26 16:17:45",
+            "source": "매일신문"
+        },
+        {
+            "title": "노동절에 공무원도 쉰다…법정 공휴일화 '초읽기'",
+            "link": "https://www.imaeil.com/page/view/2026032615474280539",
+            "published": "2026-03-26 16:16:57",
+            "source": "매일신문"
+        },
+        {
+            "title": "'동구청장 출마' 신효철 예비후보, \"선거 유세 중 폭행\"…경찰 \"용의자 신원 확인 중\"",
+            "link": "https://www.imaeil.com/page/view/2026032615343694039",
+            "published": "2026-03-26 16:15:13",
+            "source": "매일신문"
+        },
+        {
+            "title": "\"가장 빛나는 시기에 피해\"…다니엘, 법정서 신속 재판 호소",
+            "link": "https://www.imaeil.com/page/view/2026032615545378228",
+            "published": "2026-03-26 16:02:29",
+            "source": "매일신문"
+        },
+        {
+            "title": "'나이롱 환자' 잡는 8주룰 도입 불투명…자동차보험 적자 7천억원대",
+            "link": "https://www.imaeil.com/page/view/2026032615441557762",
+            "published": "2026-03-26 16:01:04",
+            "source": "매일신문"
+        },
+        {
+            "title": "한은 \"중동 리스크, 물가·성장 동시 위협\"…스태그플레이션 위험",
+            "link": "https://www.imaeil.com/page/view/2026032614480995111",
+            "published": "2026-03-26 16:00:06",
+            "source": "매일신문"
+        },
+        {
+            "title": "'비수도권 일자리 창출' 조지연 의원, 지역 중견기업 세제 혜택 지원 강화 법안 발의",
+            "link": "https://www.imaeil.com/page/view/2026032615250384535",
+            "published": "2026-03-26 15:58:10",
+            "source": "매일신문"
+        },
+        {
+            "title": "[지선 레이더] 이근수 대구 북구청장 예비후보 '골목상권·주거지 상생 도약' 비전 발표",
+            "link": "https://www.imaeil.com/page/view/2026032615570072081",
+            "published": "2026-03-26 15:57:18",
+            "source": "매일신문"
+        },
+        {
+            "title": "삼성 라이온즈 불방망이로 LG 2연패 저지…대권 도전 막 오른다",
+            "link": "https://www.imaeil.com/page/view/2026032522581778749",
+            "published": "2026-03-26 15:49:19",
+            "source": "매일신문"
+        },
+        {
             "title": "[속보] 강선우 구속적부심 신청 하루만에 기각 “청구이유 없다”",
             "link": "https://www.mediatoday.co.kr/news/articleView.html?idxno=333352",
             "published": "2026-03-26 19:48:49",
@@ -2099,6 +3179,126 @@
             "title": "방송사 유튜브, 이란전쟁 ‘대목’ 삼아 ‘시청자 자극 경쟁’",
             "link": "https://www.mediatoday.co.kr/news/articleView.html?idxno=333309",
             "published": "2026-03-25 14:06:21",
+            "source": "미디어오늘"
+        },
+        {
+            "title": "수백만 원 주고 산 삼성전자 냉장고에 광고가?",
+            "link": "https://www.mediatoday.co.kr/news/articleView.html?idxno=333307",
+            "published": "2026-03-25 13:05:15",
+            "source": "미디어오늘"
+        },
+        {
+            "title": "‘추미애 나간 법사위원장 달라’는 국힘 “들러리 세울 거면 국회 해산하라”",
+            "link": "https://www.mediatoday.co.kr/news/articleView.html?idxno=333306",
+            "published": "2026-03-25 11:58:11",
+            "source": "미디어오늘"
+        },
+        {
+            "title": "JTBC “검찰, 무혐의 5개월 전 김건희 불기소 문건 만들었다”",
+            "link": "https://www.mediatoday.co.kr/news/articleView.html?idxno=333305",
+            "published": "2026-03-25 11:51:16",
+            "source": "미디어오늘"
+        },
+        {
+            "title": "노종면 “YTN 대주주 자격 없는 유진, 이사 교체 꼼수…기가 찬다”",
+            "link": "https://www.mediatoday.co.kr/news/articleView.html?idxno=333303",
+            "published": "2026-03-25 11:23:26",
+            "source": "미디어오늘"
+        },
+        {
+            "title": "李 대통령, ‘그알 보고 윤석열 뽑아’ 글 공유하며 “조작보도는 민주주의 파괴”",
+            "link": "https://www.mediatoday.co.kr/news/articleView.html?idxno=333302",
+            "published": "2026-03-25 10:19:26",
+            "source": "미디어오늘"
+        },
+        {
+            "title": "중동전쟁 비상대응체계 가동…경향신문 “실물경제 타격 최소화해야”",
+            "link": "https://www.mediatoday.co.kr/news/articleView.html?idxno=333298",
+            "published": "2026-03-25 07:27:41",
+            "source": "미디어오늘"
+        },
+        {
+            "title": "이제는 챗GPT도 광고 봐야 한다?",
+            "link": "https://www.mediatoday.co.kr/news/articleView.html?idxno=333279",
+            "published": "2026-03-24 23:30:00",
+            "source": "미디어오늘"
+        },
+        {
+            "title": "월드컵 돈 내고 시청하는 시대? 시청자 위한 해법은",
+            "link": "https://www.mediatoday.co.kr/news/articleView.html?idxno=333289",
+            "published": "2026-03-24 23:24:20",
+            "source": "미디어오늘"
+        },
+        {
+            "title": "원주시공무원노조, 5개 언론기관에 ‘책자 강매 금지’ 공문",
+            "link": "https://www.mediatoday.co.kr/news/articleView.html?idxno=333281",
+            "published": "2026-03-24 22:20:00",
+            "source": "미디어오늘"
+        },
+        {
+            "title": "‘그알’은 ‘조작방송’?…李 SBS 비판과 공방에 가려진 것들",
+            "link": "https://www.mediatoday.co.kr/news/articleView.html?idxno=333293",
+            "published": "2026-03-24 21:15:17",
+            "source": "미디어오늘"
+        },
+        {
+            "title": "‘보편적 시청권’, 이제는 정비해야 한다",
+            "link": "https://www.mediatoday.co.kr/news/articleView.html?idxno=333273",
+            "published": "2026-03-24 21:05:40",
+            "source": "미디어오늘"
+        },
+        {
+            "title": "방미통위원장 “추경에서 TBS 예산 준비…받아들여질지는 걱정”",
+            "link": "https://www.mediatoday.co.kr/news/articleView.html?idxno=333288",
+            "published": "2026-03-24 19:54:29",
+            "source": "미디어오늘"
+        },
+        {
+            "title": "민주당 서울시장 본경선에 ‘박주민·정원오·전현희’",
+            "link": "https://www.mediatoday.co.kr/news/articleView.html?idxno=333290",
+            "published": "2026-03-24 19:54:08",
+            "source": "미디어오늘"
+        },
+        {
+            "title": "‘尹 사과 어리둥절’ 질문 후 문화부 발령 부산일보 기자, 청와대 복귀",
+            "link": "https://www.mediatoday.co.kr/news/articleView.html?idxno=333285",
+            "published": "2026-03-24 19:01:29",
+            "source": "미디어오늘"
+        },
+        {
+            "title": "이 대통령 “언론 자유는 특권 아냐” 지적 이후 SBS 내부 분위기는",
+            "link": "https://www.mediatoday.co.kr/news/articleView.html?idxno=333283",
+            "published": "2026-03-24 19:00:54",
+            "source": "미디어오늘"
+        },
+        {
+            "title": "MBC, ‘중국판 유튜브’ 빌리빌리에 저작권 침해 소송 승소",
+            "link": "https://www.mediatoday.co.kr/news/articleView.html?idxno=333282",
+            "published": "2026-03-24 17:00:05",
+            "source": "미디어오늘"
+        },
+        {
+            "title": "반응없는 지상파, 다급한 JTBC “3월말 지나면 중계권 재판매 불가능”",
+            "link": "https://www.mediatoday.co.kr/news/articleView.html?idxno=333278",
+            "published": "2026-03-24 16:09:08",
+            "source": "미디어오늘"
+        },
+        {
+            "title": "이해충돌 막으려…뉴욕타임스는 기자들 가족 투자까지 관리한다",
+            "link": "https://www.mediatoday.co.kr/news/articleView.html?idxno=333277",
+            "published": "2026-03-24 15:34:45",
+            "source": "미디어오늘"
+        },
+        {
+            "title": "78년 만에 수사-기소 분리…중수청·공소청법 국무회의 통과",
+            "link": "https://www.mediatoday.co.kr/news/articleView.html?idxno=333274",
+            "published": "2026-03-24 14:42:34",
+            "source": "미디어오늘"
+        },
+        {
+            "title": "광장 막고 공무원 차출했는데 유료 시청? BTS 공연, 무엇을 남겼나",
+            "link": "https://www.mediatoday.co.kr/news/articleView.html?idxno=333271",
+            "published": "2026-03-24 14:20:20",
             "source": "미디어오늘"
         },
         {
