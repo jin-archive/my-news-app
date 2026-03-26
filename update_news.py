@@ -2,39 +2,38 @@ import feedparser
 import json
 import datetime
 
-# 14개 언론사 RSS 주소 목록
-rss_urls = [
-    "https://news.sbs.co.kr/news/TopicRssFeed.do?plink=RSSREADER",
-    "https://news-ex.jtbc.co.kr/v1/get/rss/issue",
-    "https://www.yna.co.kr/rss/news.xml",
-    "https://rss.donga.com/total.xml",
-    "https://www.chosun.com/arc/outboundfeeds/rss/?outputType=xml",
-    "https://www.hankyung.com/feed/all-news",
-    "https://www.mk.co.kr/rss/40300001/",
-    "https://www.khan.co.kr/rss/rssdata/total_news.xml",
-    "https://www.hani.co.kr/rss/",
-    "https://www.newsis.com/RSS/sokbo.xml",
-    "http://www.kookje.co.kr/news2011/rss/newslist.xml",
-    "https://www.imaeil.com/rss",
-    "https://www.mediatoday.co.kr/rss/allArticle.xml",
-    "http://rss.etnews.com/Section903.xml"
-]
+# 💡 수정됨: 각 주소별로 우리가 보여줄 '깔끔한 언론사 이름'을 짝지어(Dictionary) 지정해 줍니다.
+rss_sources = {
+    "https://news.sbs.co.kr/news/TopicRssFeed.do?plink=RSSREADER": "SBS",
+    "https://news-ex.jtbc.co.kr/v1/get/rss/issue": "JTBC",
+    "https://www.yna.co.kr/rss/news.xml": "연합뉴스",
+    "https://rss.donga.com/total.xml": "동아일보",
+    "https://www.chosun.com/arc/outboundfeeds/rss/?outputType=xml": "조선일보",
+    "https://www.hankyung.com/feed/all-news": "한국경제",
+    "https://www.mk.co.kr/rss/40300001/": "매일경제",
+    "https://www.khan.co.kr/rss/rssdata/total_news.xml": "경향신문",
+    "https://www.hani.co.kr/rss/": "한겨레",
+    "https://www.newsis.com/RSS/sokbo.xml": "뉴시스",
+    "http://www.kookje.co.kr/news2011/rss/newslist.xml": "국제신문",
+    "https://www.imaeil.com/rss": "매일신문",
+    "https://www.mediatoday.co.kr/rss/allArticle.xml": "미디어오늘",
+    "http://rss.etnews.com/Section903.xml": "전자신문"
+}
 
 news_data = []
 
-for url in rss_urls:
+# 짝지어둔 주소(url)와 언론사 이름(source_name)을 하나씩 꺼내서 반복
+for url, source_name in rss_sources.items():
     try:
         feed = feedparser.parse(url)
-        # 피드에 제목이 없으면 URL 도메인을 출처로 사용
-        source_name = feed.feed.title if hasattr(feed, 'feed') and hasattr(feed.feed, 'title') else url.split('/')[2]
         
-        # 💡 수정됨: 각 언론사별 최신 뉴스를 5개에서 10개로 변경!
-        for entry in feed.entries[:10]:
+        # 각 언론사별 최신 뉴스 10개 가져오기
+        for entry in feed.entries[:30]:
             news_data.append({
                 "title": entry.title,
                 "link": entry.link,
                 "published": getattr(entry, 'published', ''),
-                "source": source_name
+                "source": source_name # 원본 이름 대신 우리가 지정한 깔끔한 이름을 넣습니다.
             })
     except Exception as e:
         print(f"[{url}] 파싱 중 에러 발생: {e}")
