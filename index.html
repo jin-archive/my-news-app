@@ -3,141 +3,214 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>오늘의 주요 뉴스 대시보드</title>
+    <title>오늘의 뉴스</title>
     <style>
-    /* 기본 스타일 초기화 및 폰트 설정 */
-    body {
-        font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-        background-color: #f3f4f6;
-        color: #333;
-        margin: 0;
-        padding: 20px;
-        line-height: 1.5;
-    }
+        /* 기본 스타일 초기화 */
+        body {
+            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: #f3f4f6;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.5;
+        }
 
-    /* 헤더 영역 */
-    header {
-        text-align: center;
-        margin-bottom: 30px;
-    }
-    h1 {
-        font-size: 2rem;
-        color: #1f2937;
-        margin-bottom: 10px;
-    }
-    .update-time {
-        color: #6b7280;
-        font-size: 0.9rem;
-    }
+        /* 헤더 영역 */
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h1 {
+            font-size: 2rem;
+            color: #1f2937;
+            margin-bottom: 10px;
+        }
+        .update-time {
+            color: #6b7280;
+            font-size: 0.9rem;
+        }
 
-    /* 💡 수정됨: 카드의 최소 너비를 300px -> 450px로 넓힘 */
-    .news-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(450px, 1fr)); 
-        gap: 20px;
-        max-width: 1400px;
-        margin: 0 auto;
-    }
+        /* 탭 버튼 컨테이너 */
+        .tabs-container {
+            display: flex;
+            flex-wrap: wrap; /* 화면이 좁으면 자동으로 줄바꿈 */
+            gap: 10px;
+            justify-content: center;
+            margin-bottom: 30px;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
 
-    /* 개별 언론사 카드 */
-    .news-card {
-        background-color: #ffffff;
-        border-radius: 12px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-        padding: 20px;
-        transition: transform 0.2s ease-in-out;
-    }
-    .news-card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
-    }
+        /* 개별 탭 버튼 디자인 */
+        .tab-button {
+            padding: 10px 18px;
+            background-color: #e5e7eb;
+            color: #4b5563;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+        }
+        .tab-button:hover {
+            background-color: #d1d5db;
+        }
+        /* 선택된 탭 버튼 스타일 */
+        .tab-button.active {
+            background-color: #2563eb;
+            color: white;
+            box-shadow: 0 4px 6px rgba(37, 99, 235, 0.2);
+        }
 
-    /* 카드 내 언론사 이름 */
-    .news-card h2 {
-        font-size: 1.25rem;
-        margin-top: 0;
-        margin-bottom: 15px;
-        color: #2563eb;
-        border-bottom: 2px solid #eff6ff;
-        padding-bottom: 10px;
-    }
+        /* 뉴스 콘텐츠 영역 (카드 형태) */
+        .tab-content {
+            display: none; /* 기본적으로 숨김 처리 */
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            padding: 30px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        /* 활성화된 콘텐츠만 보이기 및 페이드인 애니메이션 */
+        .tab-content.active {
+            display: block;
+            animation: fadeIn 0.4s ease-out;
+        }
 
-    /* 뉴스 리스트 */
-    .news-list {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-    /* 💡 수정됨: 각 기사 간격을 살짝 더 넓혀서 읽기 편하게 조정 */
-    .news-list li {
-        margin-bottom: 16px; 
-    }
-    .news-list li:last-child {
-        margin-bottom: 0;
-    }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
 
-    /* 💡 수정됨: 말줄임표 속성을 지우고, 줄바꿈을 허용함 */
-    .news-list a {
-        text-decoration: none;
-        color: #374151;
-        display: block;
-        line-height: 1.4;
-        word-break: keep-all; /* 단어 단위로 줄바꿈 되도록 설정 */
-    }
-    .news-list a:hover {
-        color: #2563eb;
-        text-decoration: underline;
-    }
-</style>
+        /* 탭 내부 언론사 제목 */
+        .tab-content h2 {
+            font-size: 1.5rem;
+            margin-top: 0;
+            margin-bottom: 20px;
+            color: #2563eb;
+            border-bottom: 2px solid #eff6ff;
+            padding-bottom: 15px;
+        }
+
+        /* 뉴스 리스트 */
+        .news-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .news-list li {
+            margin-bottom: 16px;
+            border-bottom: 1px solid #f3f4f6;
+            padding-bottom: 16px;
+        }
+        .news-list li:last-child {
+            margin-bottom: 0;
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        /* 뉴스 링크 */
+        .news-list a {
+            text-decoration: none;
+            color: #374151;
+            display: block;
+            font-size: 1.1rem;
+            line-height: 1.5;
+            word-break: keep-all; /* 단어 단위로 줄바꿈 */
+        }
+        .news-list a:hover {
+            color: #2563eb;
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
+
     <header>
         <h1>📰 실시간 종합 뉴스</h1>
         <div class="update-time">마지막 업데이트: <span id="update-time">데이터를 불러오는 중...</span></div>
     </header>
 
-    <div id="news-grid" class="news-grid"></div>
+    <div id="tabs-container" class="tabs-container"></div>
+    
+    <div id="content-container"></div>
 
     <script>
         fetch('news.json')
             .then(response => response.json())
             .then(data => {
                 document.getElementById('update-time').textContent = data.updated_at;
+
+                // 언론사(source)별로 데이터 그룹화
                 const groupedNews = data.news.reduce((acc, item) => {
                     if (!acc[item.source]) acc[item.source] = [];
                     acc[item.source].push(item);
                     return acc;
                 }, {});
 
-                const gridContainer = document.getElementById('news-grid');
+                const tabsContainer = document.getElementById('tabs-container');
+                const contentContainer = document.getElementById('content-container');
+
+                let isFirstTab = true; // 첫 번째 탭을 기본으로 열어두기 위한 변수
+
                 for (const [source, articles] of Object.entries(groupedNews)) {
-                    const card = document.createElement('div');
-                    card.className = 'news-card';
-                    
+                    // 고유한 ID 생성 (공백이나 특수문자 제거)
+                    const tabId = 'tab-' + source.replace(/[^a-zA-Z0-9가-힣]/g, '');
+
+                    // 1. 탭 버튼 생성
+                    const button = document.createElement('button');
+                    button.className = `tab-button ${isFirstTab ? 'active' : ''}`;
+                    button.textContent = source;
+                    button.onclick = () => openTab(tabId, button);
+                    tabsContainer.appendChild(button);
+
+                    // 2. 탭 콘텐츠 영역 생성
+                    const contentDiv = document.createElement('div');
+                    contentDiv.id = tabId;
+                    contentDiv.className = `tab-content ${isFirstTab ? 'active' : ''}`;
+
                     const title = document.createElement('h2');
                     title.textContent = source;
-                    card.appendChild(title);
+                    contentDiv.appendChild(title);
 
                     const ul = document.createElement('ul');
                     ul.className = 'news-list';
+                    
                     articles.forEach(article => {
                         const li = document.createElement('li');
                         const a = document.createElement('a');
                         a.href = article.link;
                         a.target = "_blank";
-                        a.title = article.title;
                         a.textContent = article.title;
                         li.appendChild(a);
                         ul.appendChild(li);
                     });
-                    card.appendChild(ul);
-                    gridContainer.appendChild(card);
+
+                    contentDiv.appendChild(ul);
+                    contentContainer.appendChild(contentDiv);
+
+                    isFirstTab = false; // 첫 번째 반복이 끝나면 false로 변경
                 }
             })
             .catch(error => {
                 console.error('Error fetching news:', error);
                 document.getElementById('update-time').textContent = "데이터를 불러오는데 실패했습니다.";
             });
+
+        // 탭 클릭 시 실행되는 함수
+        function openTab(tabId, clickedButton) {
+            // 모든 탭 버튼과 콘텐츠의 'active' 클래스 제거 (초기화)
+            document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+
+            // 클릭한 버튼과 연결된 콘텐츠에만 'active' 클래스 추가
+            clickedButton.classList.add('active');
+            document.getElementById(tabId).classList.add('active');
+        }
     </script>
+
 </body>
 </html>
