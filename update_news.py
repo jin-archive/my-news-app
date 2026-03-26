@@ -27,7 +27,7 @@ for url, source_name in rss_sources.items():
     try:
         feed = feedparser.parse(url)
         
-        # 각 언론사별 최신 뉴스 10개 가져오기
+        # 각 언론사별 최신 뉴스 30개 가져오기
         for entry in feed.entries[:30]:
             news_data.append({
                 "title": entry.title,
