@@ -11,58 +11,36 @@
         h1 { font-size: 2rem; color: #1f2937; margin-bottom: 10px; }
         .update-time { color: #6b7280; font-size: 0.9rem; }
 
-        /* 탭 버튼 */
-        .tabs-container { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 30px; max-width: 1000px; margin-left: auto; margin-right: auto; }
-        .tab-button { padding: 10px 18px; background-color: #e5e7eb; color: #4b5563; border: none; border-radius: 8px; font-size: 1rem; font-weight: 600; cursor: pointer; transition: all 0.2s ease-in-out; }
-        .tab-button:hover { background-color: #d1d5db; }
-        .tab-button.active { background-color: #2563eb; color: white; box-shadow: 0 4px 6px rgba(37, 99, 235, 0.2); }
+        /* 💡 상위 탭(카테고리) 디자인 */
+        .category-tabs { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-bottom: 20px; max-width: 1000px; margin-left: auto; margin-right: auto; }
+        .category-btn { padding: 12px 24px; background-color: #ffffff; color: #4b5563; border: 2px solid #e5e7eb; border-radius: 30px; font-size: 1.1rem; font-weight: 700; cursor: pointer; transition: all 0.2s ease-in-out; }
+        .category-btn:hover { border-color: #93c5fd; color: #2563eb; }
+        .category-btn.active { background-color: #1e3a8a; color: white; border-color: #1e3a8a; box-shadow: 0 4px 6px rgba(30, 58, 138, 0.2); }
+
+        /* 💡 하위 탭(언론사) 디자인 */
+        .source-tabs { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-bottom: 30px; max-width: 900px; margin-left: auto; margin-right: auto; min-height: 40px; }
+        .source-btn { padding: 8px 16px; background-color: #e5e7eb; color: #4b5563; border: none; border-radius: 8px; font-size: 0.95rem; font-weight: 600; cursor: pointer; transition: all 0.2s; }
+        .source-btn:hover { background-color: #d1d5db; }
+        .source-btn.active { background-color: #3b82f6; color: white; box-shadow: 0 2px 4px rgba(59, 130, 246, 0.3); }
 
         /* 뉴스 콘텐츠 영역 */
-        .tab-content { display: none; background-color: #ffffff; border-radius: 12px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); padding: 30px; max-width: 800px; margin: 0 auto; }
-        .tab-content.active { display: block; animation: fadeIn 0.4s ease-out; }
+        .tab-content { background-color: #ffffff; border-radius: 12px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); padding: 30px; max-width: 800px; margin: 0 auto; animation: fadeIn 0.4s ease-out; }
         @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+        .tab-content h2 { font-size: 1.5rem; margin-top: 0; margin-bottom: 20px; color: #1e3a8a; border-bottom: 2px solid #eff6ff; padding-bottom: 15px; }
 
-        .tab-content h2 { font-size: 1.5rem; margin-top: 0; margin-bottom: 20px; color: #2563eb; border-bottom: 2px solid #eff6ff; padding-bottom: 15px; }
-
-        /* 뉴스 리스트 (레이아웃 수정) */
+        /* 뉴스 리스트 */
         .news-list { list-style: none; padding: 0; margin: 0; min-height: 480px; }
-        
-        /* 💡 수정됨: Flexbox를 이용해 제목은 왼쪽, 시간은 오른쪽에 배치 */
-        .news-list li { 
-            display: flex; 
-            justify-content: space-between; 
-            align-items: flex-start;
-            margin-bottom: 16px; 
-            border-bottom: 1px solid #f3f4f6; 
-            padding-bottom: 16px; 
-        }
+        .news-list li { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 16px; border-bottom: 1px solid #f3f4f6; padding-bottom: 16px; }
         .news-list li:last-child { margin-bottom: 0; border-bottom: none; padding-bottom: 0; }
-        
-        .news-list a { 
-            text-decoration: none; 
-            color: #374151; 
-            display: block; 
-            font-size: 1.1rem; 
-            line-height: 1.5; 
-            word-break: keep-all; 
-            margin-right: 15px; /* 시간 텍스트와의 여백 */
-        }
-        .news-list a:hover { color: #2563eb; text-decoration: underline; }
-
-        /* 💡 추가됨: 시간 텍스트 디자인 */
-        .time-ago {
-            font-size: 0.85rem;
-            color: #9ca3af;
-            white-space: nowrap; /* 줄바꿈 방지 */
-            flex-shrink: 0; /* 제목이 길어도 시간 영역이 찌그러지지 않게 방지 */
-            margin-top: 4px;
-        }
+        .news-list a { text-decoration: none; color: #374151; display: block; font-size: 1.1rem; line-height: 1.5; word-break: keep-all; margin-right: 15px; }
+        .news-list a:hover { color: #3b82f6; text-decoration: underline; }
+        .time-ago { font-size: 0.85rem; color: #9ca3af; white-space: nowrap; flex-shrink: 0; margin-top: 4px; }
 
         /* 페이지네이션 */
         .pagination { display: flex; justify-content: center; gap: 8px; margin-top: 20px; padding-top: 20px; border-top: 1px solid #e5e7eb; }
         .page-btn { padding: 6px 12px; border: 1px solid #d1d5db; background-color: white; color: #374151; border-radius: 6px; cursor: pointer; transition: all 0.2s; font-size: 1rem; }
         .page-btn:hover { background-color: #f3f4f6; }
-        .page-btn.active { background-color: #2563eb; color: white; border-color: #2563eb; font-weight: bold; }
+        .page-btn.active { background-color: #3b82f6; color: white; border-color: #3b82f6; font-weight: bold; }
     </style>
 </head>
 <body>
@@ -72,123 +50,172 @@
         <div class="update-time">마지막 업데이트: <span id="update-time">데이터를 불러오는 중...</span></div>
     </header>
 
-    <div id="tabs-container" class="tabs-container"></div>
+    <div id="category-tabs" class="category-tabs"></div>
+    
+    <div id="source-tabs" class="source-tabs"></div>
+    
     <div id="content-container"></div>
 
     <script>
-        // 💡 추가됨: 상대적인 시간을 계산해주는 함수 (예: '10분 전', '2시간 전')
+        // 시간 계산 함수
         function timeAgo(dateString) {
             if (!dateString) return '';
             const publishedDate = new Date(dateString);
-            if (isNaN(publishedDate)) return ''; // 날짜 형식이 이상할 경우 빈 칸 처리
-
+            if (isNaN(publishedDate)) return '';
             const now = new Date();
             const diffInSeconds = Math.floor((now - publishedDate) / 1000);
-
             if (diffInSeconds < 60) return '방금 전';
             if (diffInSeconds < 3600) return `${Math.floor(diffInSeconds / 60)}분 전`;
             if (diffInSeconds < 86400) return `${Math.floor(diffInSeconds / 3600)}시간 전`;
             return `${Math.floor(diffInSeconds / 86400)}일 전`;
         }
 
+        // 💡 언론사 분류 맵핑 데이터
+        const categoryMapping = {
+            "방송·통신": ["SBS", "JTBC", "연합뉴스", "뉴시스"],
+            "종합일간": ["조선일보", "동아일보", "경향신문", "한겨레"],
+            "경제·IT": ["매일경제", "한국경제", "전자신문"],
+            "지역·전문": ["매일신문", "국제신문", "미디어오늘"]
+        };
+
+        let groupedNews = {};
+        const ITEMS_PER_PAGE = 10;
+
         fetch('news.json')
             .then(response => response.json())
             .then(data => {
                 document.getElementById('update-time').textContent = data.updated_at;
 
-                const groupedNews = data.news.reduce((acc, item) => {
+                // 언론사별 데이터 그룹화
+                groupedNews = data.news.reduce((acc, item) => {
                     if (!acc[item.source]) acc[item.source] = [];
                     acc[item.source].push(item);
                     return acc;
                 }, {});
 
-                const tabsContainer = document.getElementById('tabs-container');
-                const contentContainer = document.getElementById('content-container');
-                let isFirstTab = true;
-                const ITEMS_PER_PAGE = 10; 
-
-                for (const [source, articles] of Object.entries(groupedNews)) {
-                    const tabId = 'tab-' + source.replace(/[^a-zA-Z0-9가-힣]/g, '');
-
-                    const button = document.createElement('button');
-                    button.className = `tab-button ${isFirstTab ? 'active' : ''}`;
-                    button.textContent = source;
-                    button.onclick = () => openTab(tabId, button);
-                    tabsContainer.appendChild(button);
-
-                    const contentDiv = document.createElement('div');
-                    contentDiv.id = tabId;
-                    contentDiv.className = `tab-content ${isFirstTab ? 'active' : ''}`;
-
-                    const title = document.createElement('h2');
-                    title.textContent = source;
-                    contentDiv.appendChild(title);
-
-                    const ul = document.createElement('ul');
-                    ul.className = 'news-list';
-                    contentDiv.appendChild(ul);
-
-                    const paginationDiv = document.createElement('div');
-                    paginationDiv.className = 'pagination';
-                    contentDiv.appendChild(paginationDiv);
-
-                    function renderPage(page) {
-                        ul.innerHTML = ''; 
-                        const start = (page - 1) * ITEMS_PER_PAGE;
-                        const end = start + ITEMS_PER_PAGE;
-                        const paginatedItems = articles.slice(start, end);
-
-                        paginatedItems.forEach(article => {
-                            const li = document.createElement('li');
-                            
-                            // 기사 제목 링크
-                            const a = document.createElement('a');
-                            a.href = article.link;
-                            a.target = "_blank";
-                            a.textContent = article.title;
-                            
-                            // 💡 추가됨: 기사 작성 시간 요소 생성
-                            const timeSpan = document.createElement('span');
-                            timeSpan.className = 'time-ago';
-                            timeSpan.textContent = timeAgo(article.published);
-
-                            li.appendChild(a);
-                            li.appendChild(timeSpan); // 리스트 아이템에 시간 추가
-                            ul.appendChild(li);
-                        });
-
-                        renderPaginationButtons(page);
-                    }
-
-                    function renderPaginationButtons(currentPage) {
-                        paginationDiv.innerHTML = '';
-                        const totalPages = Math.ceil(articles.length / ITEMS_PER_PAGE);
-                        if (totalPages <= 1) return;
-
-                        for (let i = 1; i <= totalPages; i++) {
-                            const btn = document.createElement('button');
-                            btn.className = `page-btn ${i === currentPage ? 'active' : ''}`;
-                            btn.textContent = i;
-                            btn.onclick = () => renderPage(i);
-                            paginationDiv.appendChild(btn);
-                        }
-                    }
-
-                    renderPage(1);
-                    contentContainer.appendChild(contentDiv);
-                    isFirstTab = false;
-                }
+                renderCategoryTabs();
             })
             .catch(error => {
                 console.error('Error fetching news:', error);
                 document.getElementById('update-time').textContent = "데이터를 불러오는데 실패했습니다.";
             });
 
-        function openTab(tabId, clickedButton) {
-            document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
-            document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
-            clickedButton.classList.add('active');
-            document.getElementById(tabId).classList.add('active');
+        // 상위 카테고리 탭 렌더링
+        function renderCategoryTabs() {
+            const categoryContainer = document.getElementById('category-tabs');
+            let isFirstCat = true;
+
+            for (const category in categoryMapping) {
+                const btn = document.createElement('button');
+                btn.className = `category-btn ${isFirstCat ? 'active' : ''}`;
+                btn.textContent = category;
+                btn.onclick = () => selectCategory(category, btn);
+                categoryContainer.appendChild(btn);
+
+                // 첫 번째 카테고리 자동 선택
+                if (isFirstCat) {
+                    selectCategory(category, btn);
+                    isFirstCat = false;
+                }
+            }
+        }
+
+        // 상위 카테고리 클릭 시 하위 언론사 탭 렌더링
+        function selectCategory(category, clickedBtn) {
+            document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
+            if(clickedBtn) clickedBtn.classList.add('active');
+
+            const sourceContainer = document.getElementById('source-tabs');
+            sourceContainer.innerHTML = ''; // 기존 하위 탭 초기화
+
+            const sources = categoryMapping[category];
+            let isFirstSource = true;
+
+            sources.forEach(source => {
+                if (!groupedNews[source]) return; // 수집된 데이터가 없으면 건너뜀
+
+                const btn = document.createElement('button');
+                btn.className = `source-btn ${isFirstSource ? 'active' : ''}`;
+                btn.textContent = source;
+                btn.onclick = () => selectSource(source, btn);
+                sourceContainer.appendChild(btn);
+
+                // 첫 번째 언론사 자동 선택
+                if (isFirstSource) {
+                    selectSource(source, btn);
+                    isFirstSource = false;
+                }
+            });
+        }
+
+        // 하위 언론사 클릭 시 기사 목록 렌더링
+        function selectSource(source, clickedBtn) {
+            document.querySelectorAll('.source-btn').forEach(b => b.classList.remove('active'));
+            if(clickedBtn) clickedBtn.classList.add('active');
+
+            const contentContainer = document.getElementById('content-container');
+            contentContainer.innerHTML = ''; // 기존 콘텐츠 초기화
+
+            const articles = groupedNews[source];
+            const contentDiv = document.createElement('div');
+            contentDiv.className = 'tab-content';
+
+            const title = document.createElement('h2');
+            title.textContent = source;
+            contentDiv.appendChild(title);
+
+            const ul = document.createElement('ul');
+            ul.className = 'news-list';
+            contentDiv.appendChild(ul);
+
+            const paginationDiv = document.createElement('div');
+            paginationDiv.className = 'pagination';
+            contentDiv.appendChild(paginationDiv);
+
+            // 페이지 렌더링 함수
+            function renderPage(page) {
+                ul.innerHTML = '';
+                const start = (page - 1) * ITEMS_PER_PAGE;
+                const end = start + ITEMS_PER_PAGE;
+                const paginatedItems = articles.slice(start, end);
+
+                paginatedItems.forEach(article => {
+                    const li = document.createElement('li');
+                    
+                    const a = document.createElement('a');
+                    a.href = article.link;
+                    a.target = "_blank";
+                    a.textContent = article.title;
+                    
+                    const timeSpan = document.createElement('span');
+                    timeSpan.className = 'time-ago';
+                    timeSpan.textContent = timeAgo(article.published);
+
+                    li.appendChild(a);
+                    li.appendChild(timeSpan);
+                    ul.appendChild(li);
+                });
+
+                renderPaginationButtons(page);
+            }
+
+            // 페이지 버튼 렌더링 함수
+            function renderPaginationButtons(currentPage) {
+                paginationDiv.innerHTML = '';
+                const totalPages = Math.ceil(articles.length / ITEMS_PER_PAGE);
+                if (totalPages <= 1) return;
+
+                for (let i = 1; i <= totalPages; i++) {
+                    const btn = document.createElement('button');
+                    btn.className = `page-btn ${i === currentPage ? 'active' : ''}`;
+                    btn.textContent = i;
+                    btn.onclick = () => renderPage(i);
+                    paginationDiv.appendChild(btn);
+                }
+            }
+
+            renderPage(1); // 1페이지 기본 출력
+            contentContainer.appendChild(contentDiv);
         }
     </script>
 </body>
