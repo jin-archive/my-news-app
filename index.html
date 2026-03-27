@@ -3,38 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>오늘의 주요 뉴스</title>
+    <title>오늘의 뉴스</title>
     <style>
-        /* 기본 스타일 초기화 */
+        /* 기본 스타일 및 상위/하위 탭 스타일 (기존과 동일) */
         body { font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #f3f4f6; color: #333; margin: 0; padding: 20px; line-height: 1.5; }
         header { text-align: center; margin-bottom: 30px; }
         h1 { font-size: 2rem; color: #1f2937; margin-bottom: 10px; }
         .update-time { color: #6b7280; font-size: 0.9rem; }
-
-        /* 💡 상위 탭(카테고리) 디자인 */
         .category-tabs { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-bottom: 20px; max-width: 1000px; margin-left: auto; margin-right: auto; }
-        .category-btn { padding: 12px 24px; background-color: #ffffff; color: #4b5563; border: 2px solid #e5e7eb; border-radius: 30px; font-size: 1.1rem; font-weight: 700; cursor: pointer; transition: all 0.2s ease-in-out; }
+        .category-btn { padding: 12px 24px; background-color: #ffffff; color: #4b5563; border: 2px solid #e5e7eb; border-radius: 30px; font-size: 1.1rem; font-weight: 700; cursor: pointer; transition: all 0.2s; }
         .category-btn:hover { border-color: #93c5fd; color: #2563eb; }
         .category-btn.active { background-color: #1e3a8a; color: white; border-color: #1e3a8a; box-shadow: 0 4px 6px rgba(30, 58, 138, 0.2); }
-
-        /* 💡 하위 탭(언론사) 디자인 */
         .source-tabs { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-bottom: 30px; max-width: 900px; margin-left: auto; margin-right: auto; min-height: 40px; }
         .source-btn { padding: 8px 16px; background-color: #e5e7eb; color: #4b5563; border: none; border-radius: 8px; font-size: 0.95rem; font-weight: 600; cursor: pointer; transition: all 0.2s; }
         .source-btn:hover { background-color: #d1d5db; }
         .source-btn.active { background-color: #3b82f6; color: white; box-shadow: 0 2px 4px rgba(59, 130, 246, 0.3); }
-
-        /* 뉴스 콘텐츠 영역 */
         .tab-content { background-color: #ffffff; border-radius: 12px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); padding: 30px; max-width: 800px; margin: 0 auto; animation: fadeIn 0.4s ease-out; }
         @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
         .tab-content h2 { font-size: 1.5rem; margin-top: 0; margin-bottom: 20px; color: #1e3a8a; border-bottom: 2px solid #eff6ff; padding-bottom: 15px; }
 
-        /* 뉴스 리스트 */
+        /* 💡 수정됨: 뉴스 리스트 (아코디언 형태에 맞게 변경) */
         .news-list { list-style: none; padding: 0; margin: 0; min-height: 480px; }
-        .news-list li { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 16px; border-bottom: 1px solid #f3f4f6; padding-bottom: 16px; }
-        .news-list li:last-child { margin-bottom: 0; border-bottom: none; padding-bottom: 0; }
-        .news-list a { text-decoration: none; color: #374151; display: block; font-size: 1.1rem; line-height: 1.5; word-break: keep-all; margin-right: 15px; }
-        .news-list a:hover { color: #3b82f6; text-decoration: underline; }
+        .news-item { margin-bottom: 16px; border-bottom: 1px solid #f3f4f6; padding-bottom: 16px; display: block; }
+        .news-item:last-child { margin-bottom: 0; border-bottom: none; padding-bottom: 0; }
+        
+        /* 💡 추가됨: 클릭 가능한 제목 영역 */
+        .title-wrapper { display: flex; justify-content: space-between; align-items: flex-start; cursor: pointer; }
+        .news-title { font-size: 1.1rem; color: #374151; word-break: keep-all; margin-right: 15px; font-weight: 500; transition: color 0.2s; }
+        .title-wrapper:hover .news-title { color: #3b82f6; }
         .time-ago { font-size: 0.85rem; color: #9ca3af; white-space: nowrap; flex-shrink: 0; margin-top: 4px; }
+
+        /* 💡 추가됨: 펼쳐지는 요약본 영역 숨김 처리 및 디자인 */
+        .summary-content { display: none; margin-top: 15px; padding: 15px 20px; background-color: #f8fafc; border-radius: 8px; font-size: 0.95rem; color: #475569; border-left: 4px solid #3b82f6; line-height: 1.6; }
+        .summary-content.expanded { display: block; animation: slideDown 0.3s ease-out; }
+        @keyframes slideDown { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
+        
+        /* 💡 추가됨: 원문 보기 버튼 */
+        .read-more-btn { display: inline-block; margin-top: 12px; font-size: 0.9rem; color: #2563eb; font-weight: bold; text-decoration: none; padding: 6px 12px; background-color: #eff6ff; border-radius: 6px; transition: background-color 0.2s; }
+        .read-more-btn:hover { background-color: #dbeafe; }
 
         /* 페이지네이션 */
         .pagination { display: flex; justify-content: center; gap: 8px; margin-top: 20px; padding-top: 20px; border-top: 1px solid #e5e7eb; }
@@ -46,18 +52,15 @@
 <body>
 
     <header>
-        <h1>📰 실시간 종합 뉴스</h1>
+        <h1>📰 오늘의 뉴스</h1>
         <div class="update-time">마지막 업데이트: <span id="update-time">데이터를 불러오는 중...</span></div>
     </header>
 
     <div id="category-tabs" class="category-tabs"></div>
-    
     <div id="source-tabs" class="source-tabs"></div>
-    
     <div id="content-container"></div>
 
     <script>
-        // 시간 계산 함수
         function timeAgo(dateString) {
             if (!dateString) return '';
             const publishedDate = new Date(dateString);
@@ -70,10 +73,9 @@
             return `${Math.floor(diffInSeconds / 86400)}일 전`;
         }
 
-        // 💡 언론사 분류 맵핑 데이터
         const categoryMapping = {
             "방송·통신": ["SBS", "JTBC", "연합뉴스", "뉴시스"],
-            "일간": ["조선일보", "동아일보", "경향신문", "한겨레"],
+            "종합일간": ["조선일보", "동아일보", "경향신문", "한겨레"],
             "경제·IT": ["매일경제", "한국경제", "전자신문"],
             "지역·전문": ["매일신문", "국제신문", "미디어오늘"]
         };
@@ -85,14 +87,11 @@
             .then(response => response.json())
             .then(data => {
                 document.getElementById('update-time').textContent = data.updated_at;
-
-                // 언론사별 데이터 그룹화
                 groupedNews = data.news.reduce((acc, item) => {
                     if (!acc[item.source]) acc[item.source] = [];
                     acc[item.source].push(item);
                     return acc;
                 }, {});
-
                 renderCategoryTabs();
             })
             .catch(error => {
@@ -100,79 +99,55 @@
                 document.getElementById('update-time').textContent = "데이터를 불러오는데 실패했습니다.";
             });
 
-        // 상위 카테고리 탭 렌더링
         function renderCategoryTabs() {
             const categoryContainer = document.getElementById('category-tabs');
             let isFirstCat = true;
-
             for (const category in categoryMapping) {
                 const btn = document.createElement('button');
                 btn.className = `category-btn ${isFirstCat ? 'active' : ''}`;
                 btn.textContent = category;
                 btn.onclick = () => selectCategory(category, btn);
                 categoryContainer.appendChild(btn);
-
-                // 첫 번째 카테고리 자동 선택
-                if (isFirstCat) {
-                    selectCategory(category, btn);
-                    isFirstCat = false;
-                }
+                if (isFirstCat) { selectCategory(category, btn); isFirstCat = false; }
             }
         }
 
-        // 상위 카테고리 클릭 시 하위 언론사 탭 렌더링
         function selectCategory(category, clickedBtn) {
             document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
             if(clickedBtn) clickedBtn.classList.add('active');
-
             const sourceContainer = document.getElementById('source-tabs');
-            sourceContainer.innerHTML = ''; // 기존 하위 탭 초기화
-
+            sourceContainer.innerHTML = '';
             const sources = categoryMapping[category];
             let isFirstSource = true;
-
             sources.forEach(source => {
-                if (!groupedNews[source]) return; // 수집된 데이터가 없으면 건너뜀
-
+                if (!groupedNews[source]) return;
                 const btn = document.createElement('button');
                 btn.className = `source-btn ${isFirstSource ? 'active' : ''}`;
                 btn.textContent = source;
                 btn.onclick = () => selectSource(source, btn);
                 sourceContainer.appendChild(btn);
-
-                // 첫 번째 언론사 자동 선택
-                if (isFirstSource) {
-                    selectSource(source, btn);
-                    isFirstSource = false;
-                }
+                if (isFirstSource) { selectSource(source, btn); isFirstSource = false; }
             });
         }
 
-        // 하위 언론사 클릭 시 기사 목록 렌더링
         function selectSource(source, clickedBtn) {
             document.querySelectorAll('.source-btn').forEach(b => b.classList.remove('active'));
             if(clickedBtn) clickedBtn.classList.add('active');
-
             const contentContainer = document.getElementById('content-container');
-            contentContainer.innerHTML = ''; // 기존 콘텐츠 초기화
-
+            contentContainer.innerHTML = '';
             const articles = groupedNews[source];
             const contentDiv = document.createElement('div');
             contentDiv.className = 'tab-content';
-
             const title = document.createElement('h2');
             title.textContent = source;
             contentDiv.appendChild(title);
-
             const ul = document.createElement('ul');
             ul.className = 'news-list';
             contentDiv.appendChild(ul);
-
             const paginationDiv = document.createElement('div');
             paginationDiv.className = 'pagination';
             contentDiv.appendChild(paginationDiv);
 
-            // 페이지 렌더링 함수
             function renderPage(page) {
                 ul.innerHTML = '';
                 const start = (page - 1) * ITEMS_PER_PAGE;
@@ -181,30 +156,54 @@
 
                 paginatedItems.forEach(article => {
                     const li = document.createElement('li');
+                    li.className = 'news-item';
                     
-                    const a = document.createElement('a');
-                    a.href = article.link;
-                    a.target = "_blank";
-                    a.textContent = article.title;
+                    // 제목과 시간을 묶는 래퍼 (클릭 영역)
+                    const titleWrapper = document.createElement('div');
+                    titleWrapper.className = 'title-wrapper';
+                    
+                    const titleSpan = document.createElement('span');
+                    titleSpan.className = 'news-title';
+                    titleSpan.textContent = article.title;
                     
                     const timeSpan = document.createElement('span');
                     timeSpan.className = 'time-ago';
                     timeSpan.textContent = timeAgo(article.published);
 
-                    li.appendChild(a);
-                    li.appendChild(timeSpan);
+                    titleWrapper.appendChild(titleSpan);
+                    titleWrapper.appendChild(timeSpan);
+                    li.appendChild(titleWrapper);
+
+                    // 💡 추가됨: 펼쳐질 요약본 영역
+                    const summaryDiv = document.createElement('div');
+                    summaryDiv.className = 'summary-content';
+                    // 요약 텍스트와 원문 링크 버튼을 안에 넣음
+                    summaryDiv.innerHTML = `
+                        <div>${article.summary}</div>
+                        <a href="${article.link}" target="_blank" class="read-more-btn">원문 전체 읽기 🔗</a>
+                    `;
+                    li.appendChild(summaryDiv);
+
+                    // 💡 추가됨: 제목 클릭 시 요약본 아코디언 열기/닫기 로직
+                    titleWrapper.onclick = () => {
+                        const isExpanded = summaryDiv.classList.contains('expanded');
+                        // 깔끔함을 위해 다른 열려있는 요약본들은 모두 닫기
+                        document.querySelectorAll('.summary-content').forEach(el => el.classList.remove('expanded'));
+                        
+                        if (!isExpanded) {
+                            summaryDiv.classList.add('expanded');
+                        }
+                    };
+
                     ul.appendChild(li);
                 });
-
                 renderPaginationButtons(page);
             }
 
-            // 페이지 버튼 렌더링 함수
             function renderPaginationButtons(currentPage) {
                 paginationDiv.innerHTML = '';
                 const totalPages = Math.ceil(articles.length / ITEMS_PER_PAGE);
                 if (totalPages <= 1) return;
-
                 for (let i = 1; i <= totalPages; i++) {
                     const btn = document.createElement('button');
                     btn.className = `page-btn ${i === currentPage ? 'active' : ''}`;
@@ -214,7 +213,7 @@
                 }
             }
 
-            renderPage(1); // 1페이지 기본 출력
+            renderPage(1);
             contentContainer.appendChild(contentDiv);
         }
     </script>
