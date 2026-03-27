@@ -4,20 +4,27 @@ import datetime
 
 # 💡 수정됨: 각 주소별로 우리가 보여줄 '깔끔한 언론사 이름'을 짝지어(Dictionary) 지정해 줍니다.
 rss_sources = {
+    # [방송·통신사]
     "https://news.sbs.co.kr/news/TopicRssFeed.do?plink=RSSREADER": "SBS",
     "https://news-ex.jtbc.co.kr/v1/get/rss/issue": "JTBC",
     "https://www.yna.co.kr/rss/news.xml": "연합뉴스",
-    "https://rss.donga.com/total.xml": "동아일보",
+    "https://www.newsis.com/RSS/sokbo.xml": "뉴시스",
+    
+    # [종합일간지]
     "https://www.chosun.com/arc/outboundfeeds/rss/?outputType=xml": "조선일보",
-    "https://www.hankyung.com/feed/all-news": "한국경제",
-    "https://www.mk.co.kr/rss/40300001/": "매일경제",
+    "https://rss.donga.com/total.xml": "동아일보",
     "https://www.khan.co.kr/rss/rssdata/total_news.xml": "경향신문",
     "https://www.hani.co.kr/rss/": "한겨레",
-    "https://www.newsis.com/RSS/sokbo.xml": "뉴시스",
-    "http://www.kookje.co.kr/news2011/rss/newslist.xml": "국제신문",
+    
+    # [경제·IT지]
+    "https://www.mk.co.kr/rss/40300001/": "매일경제",
+    "https://www.hankyung.com/feed/all-news": "한국경제",
+    "http://rss.etnews.com/Section903.xml": "전자신문",
+    
+    # [지역·전문지]
     "https://www.imaeil.com/rss": "매일신문",
-    "https://www.mediatoday.co.kr/rss/allArticle.xml": "미디어오늘",
-    "http://rss.etnews.com/Section903.xml": "전자신문"
+    "http://www.kookje.co.kr/news2011/rss/newslist.xml": "국제신문",
+    "https://www.mediatoday.co.kr/rss/allArticle.xml": "미디어오늘"
 }
 
 news_data = []
