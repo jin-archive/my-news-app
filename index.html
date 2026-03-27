@@ -11,7 +11,7 @@
         h1 { font-size: 2rem; color: #1f2937; margin-bottom: 10px; }
         .update-time { color: #6b7280; font-size: 0.9rem; }
 
-        /* 탭 버튼 컨테이너 */
+        /* 탭 버튼 */
         .tabs-container { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 30px; max-width: 1000px; margin-left: auto; margin-right: auto; }
         .tab-button { padding: 10px 18px; background-color: #e5e7eb; color: #4b5563; border: none; border-radius: 8px; font-size: 1rem; font-weight: 600; cursor: pointer; transition: all 0.2s ease-in-out; }
         .tab-button:hover { background-color: #d1d5db; }
@@ -24,14 +24,41 @@
 
         .tab-content h2 { font-size: 1.5rem; margin-top: 0; margin-bottom: 20px; color: #2563eb; border-bottom: 2px solid #eff6ff; padding-bottom: 15px; }
 
-        /* 뉴스 리스트 */
-        .news-list { list-style: none; padding: 0; margin: 0; min-height: 480px; /* 페이지 전환 시 높이 널뛰기 방지 */ }
-        .news-list li { margin-bottom: 16px; border-bottom: 1px solid #f3f4f6; padding-bottom: 16px; }
+        /* 뉴스 리스트 (레이아웃 수정) */
+        .news-list { list-style: none; padding: 0; margin: 0; min-height: 480px; }
+        
+        /* 💡 수정됨: Flexbox를 이용해 제목은 왼쪽, 시간은 오른쪽에 배치 */
+        .news-list li { 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: flex-start;
+            margin-bottom: 16px; 
+            border-bottom: 1px solid #f3f4f6; 
+            padding-bottom: 16px; 
+        }
         .news-list li:last-child { margin-bottom: 0; border-bottom: none; padding-bottom: 0; }
-        .news-list a { text-decoration: none; color: #374151; display: block; font-size: 1.1rem; line-height: 1.5; word-break: keep-all; }
+        
+        .news-list a { 
+            text-decoration: none; 
+            color: #374151; 
+            display: block; 
+            font-size: 1.1rem; 
+            line-height: 1.5; 
+            word-break: keep-all; 
+            margin-right: 15px; /* 시간 텍스트와의 여백 */
+        }
         .news-list a:hover { color: #2563eb; text-decoration: underline; }
 
-        /* 💡 추가됨: 페이지네이션(페이지 번호) 버튼 스타일 */
+        /* 💡 추가됨: 시간 텍스트 디자인 */
+        .time-ago {
+            font-size: 0.85rem;
+            color: #9ca3af;
+            white-space: nowrap; /* 줄바꿈 방지 */
+            flex-shrink: 0; /* 제목이 길어도 시간 영역이 찌그러지지 않게 방지 */
+            margin-top: 4px;
+        }
+
+        /* 페이지네이션 */
         .pagination { display: flex; justify-content: center; gap: 8px; margin-top: 20px; padding-top: 20px; border-top: 1px solid #e5e7eb; }
         .page-btn { padding: 6px 12px; border: 1px solid #d1d5db; background-color: white; color: #374151; border-radius: 6px; cursor: pointer; transition: all 0.2s; font-size: 1rem; }
         .page-btn:hover { background-color: #f3f4f6; }
@@ -49,6 +76,21 @@
     <div id="content-container"></div>
 
     <script>
+        // 💡 추가됨: 상대적인 시간을 계산해주는 함수 (예: '10분 전', '2시간 전')
+        function timeAgo(dateString) {
+            if (!dateString) return '';
+            const publishedDate = new Date(dateString);
+            if (isNaN(publishedDate)) return ''; // 날짜 형식이 이상할 경우 빈 칸 처리
+
+            const now = new Date();
+            const diffInSeconds = Math.floor((now - publishedDate) / 1000);
+
+            if (diffInSeconds < 60) return '방금 전';
+            if (diffInSeconds < 3600) return `${Math.floor(diffInSeconds / 60)}분 전`;
+            if (diffInSeconds < 86400) return `${Math.floor(diffInSeconds / 3600)}시간 전`;
+            return `${Math.floor(diffInSeconds / 86400)}일 전`;
+        }
+
         fetch('news.json')
             .then(response => response.json())
             .then(data => {
@@ -63,21 +105,17 @@
                 const tabsContainer = document.getElementById('tabs-container');
                 const contentContainer = document.getElementById('content-container');
                 let isFirstTab = true;
-
-                // 💡 추가됨: 한 페이지당 보여줄 기사 개수 설정
                 const ITEMS_PER_PAGE = 10; 
 
                 for (const [source, articles] of Object.entries(groupedNews)) {
                     const tabId = 'tab-' + source.replace(/[^a-zA-Z0-9가-힣]/g, '');
 
-                    // 1. 탭 버튼 생성
                     const button = document.createElement('button');
                     button.className = `tab-button ${isFirstTab ? 'active' : ''}`;
                     button.textContent = source;
                     button.onclick = () => openTab(tabId, button);
                     tabsContainer.appendChild(button);
 
-                    // 2. 탭 콘텐츠 영역 생성
                     const contentDiv = document.createElement('div');
                     contentDiv.id = tabId;
                     contentDiv.className = `tab-content ${isFirstTab ? 'active' : ''}`;
@@ -90,49 +128,52 @@
                     ul.className = 'news-list';
                     contentDiv.appendChild(ul);
 
-                    // 💡 추가됨: 페이지 버튼들이 들어갈 영역 생성
                     const paginationDiv = document.createElement('div');
                     paginationDiv.className = 'pagination';
                     contentDiv.appendChild(paginationDiv);
 
-                    // 💡 추가됨: 특정 페이지의 기사만 렌더링하는 함수
                     function renderPage(page) {
-                        ul.innerHTML = ''; // 기존 리스트 지우기
+                        ul.innerHTML = ''; 
                         const start = (page - 1) * ITEMS_PER_PAGE;
                         const end = start + ITEMS_PER_PAGE;
-                        const paginatedItems = articles.slice(start, end); // 10개만 잘라내기
+                        const paginatedItems = articles.slice(start, end);
 
                         paginatedItems.forEach(article => {
                             const li = document.createElement('li');
+                            
+                            // 기사 제목 링크
                             const a = document.createElement('a');
                             a.href = article.link;
                             a.target = "_blank";
                             a.textContent = article.title;
+                            
+                            // 💡 추가됨: 기사 작성 시간 요소 생성
+                            const timeSpan = document.createElement('span');
+                            timeSpan.className = 'time-ago';
+                            timeSpan.textContent = timeAgo(article.published);
+
                             li.appendChild(a);
+                            li.appendChild(timeSpan); // 리스트 아이템에 시간 추가
                             ul.appendChild(li);
                         });
 
                         renderPaginationButtons(page);
                     }
 
-                    // 💡 추가됨: 하단 1, 2, 3 페이지 버튼을 그리는 함수
                     function renderPaginationButtons(currentPage) {
-                        paginationDiv.innerHTML = ''; // 기존 버튼 지우기
+                        paginationDiv.innerHTML = '';
                         const totalPages = Math.ceil(articles.length / ITEMS_PER_PAGE);
-
-                        // 기사가 10개 이하면 페이지 버튼을 만들지 않음
                         if (totalPages <= 1) return;
 
                         for (let i = 1; i <= totalPages; i++) {
                             const btn = document.createElement('button');
                             btn.className = `page-btn ${i === currentPage ? 'active' : ''}`;
                             btn.textContent = i;
-                            btn.onclick = () => renderPage(i); // 버튼 클릭 시 해당 페이지 렌더링
+                            btn.onclick = () => renderPage(i);
                             paginationDiv.appendChild(btn);
                         }
                     }
 
-                    // 처음 탭이 만들어질 때 1페이지를 기본으로 보여줌
                     renderPage(1);
                     contentContainer.appendChild(contentDiv);
                     isFirstTab = false;
@@ -143,7 +184,6 @@
                 document.getElementById('update-time').textContent = "데이터를 불러오는데 실패했습니다.";
             });
 
-        // 탭 전환 함수
         function openTab(tabId, clickedButton) {
             document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
             document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
